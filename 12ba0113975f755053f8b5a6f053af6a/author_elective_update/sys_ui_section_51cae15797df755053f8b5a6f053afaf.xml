@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="Customer" section_id="51cae15797df755053f8b5a6f053afaf" sys_domain="global" table="sys_user" version="3" view="">
+        <sys_ui_section action="DELETE">
+            <caption>Customer</caption>
+            <header>false</header>
+            <name>sys_user</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-29 07:47:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>51cae15797df755053f8b5a6f053afaf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>sys_user</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="MySmartphone Service Center" source="x_1129749_mysmartp">12ba0113975f755053f8b5a6f053af6a</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="MySmartphone Service Center">12ba0113975f755053f8b5a6f053af6a</sys_scope>
+            <sys_update_name>sys_ui_section_51cae15797df755053f8b5a6f053afaf</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-29 07:47:20</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MySmartphone Service Center">12ba0113975f755053f8b5a6f053af6a</application>
+        <file_path/>
+        <instance_id>ad7ecc92dbe92518c9912f17d4961906</instance_id>
+        <instance_name>dev164351</instance_name>
+        <name>sys_ui_section_51cae15797df755053f8b5a6f053afaf</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="Customer" section_id="51cae15797df755053f8b5a6f053afaf" sys_domain="global" table="sys_user" version="3" view=""><sys_ui_section action="INSERT_OR_UPDATE"><caption>Customer</caption><header>false</header><name>sys_user</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-12-29 07:47:20</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>51cae15797df755053f8b5a6f053afaf</sys_id><sys_mod_count>0</sys_mod_count><sys_name>sys_user</sys_name><sys_overrides/><sys_package display_value="MySmartphone Service Center" source="x_1129749_mysmartp">12ba0113975f755053f8b5a6f053af6a</sys_package><sys_policy/><sys_scope display_value="MySmartphone Service Center">12ba0113975f755053f8b5a6f053af6a</sys_scope><sys_update_name>sys_ui_section_51cae15797df755053f8b5a6f053afaf</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-12-29 07:47:20</sys_updated_on><sys_user/><title>false</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>-445799378</payload_hash>
+        <record_name>User</record_name>
+        <reverted_from/>
+        <source>3f07c4119702311053f8b5a6f053af9e</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-29 07:51:21</sys_created_on>
+        <sys_id>0cbb611b97df755053f8b5a6f053af00</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18cb48e6ada0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-29 07:51:21</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>c8bb611b54df75500228ec7c58edb500</update_guid>
+        <update_guid_history>c8bb611b54df75500228ec7c58edb500:-445799378</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-29 07:51:21</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>254188d2400a449a93549621fed7b859</sys_id>
+        <sys_metadata>51cae15797df755053f8b5a6f053afaf</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Customer</sys_name>
+        <sys_package display_value="MySmartphone Service Center" source="x_1129749_mysmartp">12ba0113975f755053f8b5a6f053af6a</sys_package>
+        <sys_parent display_value="User">34ced832d423211095d7c105f1bf43eb</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="MySmartphone Service Center">12ba0113975f755053f8b5a6f053af6a</sys_scope>
+        <sys_scope_delete display_value="">b01e8e6237734995a641a86aa7163701</sys_scope_delete>
+        <sys_update_name>sys_ui_section_51cae15797df755053f8b5a6f053afaf</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_51cae15797df755053f8b5a6f053afaf">0cbb611b97df755053f8b5a6f053af00</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-29 07:51:21</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

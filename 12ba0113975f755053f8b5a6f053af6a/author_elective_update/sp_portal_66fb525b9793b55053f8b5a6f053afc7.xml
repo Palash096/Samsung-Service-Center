@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_portal">
+    <sp_portal action="DELETE">
+        <css_variables/>
+        <default>false</default>
+        <enable_ais>false</enable_ais>
+        <enable_favorites>false</enable_favorites>
+        <hide_portal_name>false</hide_portal_name>
+        <homepage display_value="index">46cc384147532100ba13a5554ee49009</homepage>
+        <icon/>
+        <kb_knowledge_base/>
+        <kb_knowledge_page display_value="kb_view2">26c2e030d7201200a9addd173e24d437</kb_knowledge_page>
+        <login_page display_value="login">6995a144cb11120000f8d856634c9c25</login_page>
+        <logo/>
+        <notfound_page display_value="custom_404_page">55c1969b970ab11053f8b5a6f053afa8</notfound_page>
+        <quick_start_config/>
+        <sc_catalog/>
+        <sc_catalog_page display_value="sc_landing">53261e3487100300e0ef0cf888cb0b7c</sc_catalog_page>
+        <sc_category_page/>
+        <search_application/>
+        <search_results_configuration/>
+        <sp_chat_queue/>
+        <sp_rectangle_menu display_value="SP Header Menu">d150fd31cb10020000f8d856634c9ce6</sp_rectangle_menu>
+        <sys_class_name>sp_portal</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-29 11:28:29</sys_created_on>
+        <sys_id>66fb525b9793b55053f8b5a6f053afc7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>MobileTech Solutions</sys_name>
+        <sys_package display_value="MySmartphone Service Center" source="x_1129749_mysmartp">12ba0113975f755053f8b5a6f053af6a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MySmartphone Service Center">12ba0113975f755053f8b5a6f053af6a</sys_scope>
+        <sys_update_name>sp_portal_66fb525b9793b55053f8b5a6f053afc7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-29 11:28:29</sys_updated_on>
+        <theme display_value="Stock - High Contrast">f84873986711320023c82e08f585ef6a</theme>
+        <title>MobileTech Solutions</title>
+        <ts_index_group/>
+        <url_suffix>smartphone</url_suffix>
+    </sp_portal>
+    <sys_translated_text action="DELETE" query="documentkey=66fb525b9793b55053f8b5a6f053afc7"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MySmartphone Service Center">12ba0113975f755053f8b5a6f053af6a</application>
+        <file_path/>
+        <instance_id>ad7ecc92dbe92518c9912f17d4961906</instance_id>
+        <instance_name>dev164351</instance_name>
+        <name>sp_portal_66fb525b9793b55053f8b5a6f053afc7</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_portal"><sp_portal action="INSERT_OR_UPDATE"><css_variables/><default>false</default><enable_ais>false</enable_ais><enable_favorites>false</enable_favorites><hide_portal_name>false</hide_portal_name><homepage display_value="index">46cc384147532100ba13a5554ee49009</homepage><icon/><kb_knowledge_base/><kb_knowledge_page display_value="kb_view2">26c2e030d7201200a9addd173e24d437</kb_knowledge_page><login_page display_value="login">6995a144cb11120000f8d856634c9c25</login_page><logo/><notfound_page display_value="custom_404_page">55c1969b970ab11053f8b5a6f053afa8</notfound_page><quick_start_config/><sc_catalog/><sc_catalog_page display_value="sc_landing">53261e3487100300e0ef0cf888cb0b7c</sc_catalog_page><sc_category_page/><search_application/><search_results_configuration/><sp_chat_queue/><sp_rectangle_menu display_value="SP Header Menu">d150fd31cb10020000f8d856634c9ce6</sp_rectangle_menu><sys_class_name>sp_portal</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-12-29 11:28:29</sys_created_on><sys_id>66fb525b9793b55053f8b5a6f053afc7</sys_id><sys_mod_count>0</sys_mod_count><sys_name>MobileTech Solutions</sys_name><sys_package display_value="MySmartphone Service Center" source="x_1129749_mysmartp">12ba0113975f755053f8b5a6f053af6a</sys_package><sys_policy/><sys_scope display_value="MySmartphone Service Center">12ba0113975f755053f8b5a6f053af6a</sys_scope><sys_update_name>sp_portal_66fb525b9793b55053f8b5a6f053afc7</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-12-29 11:28:29</sys_updated_on><theme display_value="Stock - High Contrast">f84873986711320023c82e08f585ef6a</theme><title>MobileTech Solutions</title><ts_index_group/><url_suffix>smartphone</url_suffix></sp_portal><sys_translated_text action="delete_multiple" query="documentkey=66fb525b9793b55053f8b5a6f053afc7"/></record_update>]]></payload>
+        <payload_hash>-1530669544</payload_hash>
+        <record_name>MobileTech Solutions</record_name>
+        <reverted_from/>
+        <source>53fa4597975b755053f8b5a6f053af31</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-29 11:28:30</sys_created_on>
+        <sys_id>016d969b9793b55053f8b5a6f053af9d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18cb555392f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-29 11:28:30</sys_updated_on>
+        <type>Service Portal</type>
+        <update_guid>496d969b1f93b550cc39d7a5638f159c</update_guid>
+        <update_guid_history>496d969b1f93b550cc39d7a5638f159c:-1530669544</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="MobileTech Solutions">04806a5f9793b55053f8b5a6f053af86</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-29 11:42:05</sys_created_on>
+        <sys_db_object display_value="" name="sp_portal">sp_portal</sys_db_object>
+        <sys_id>24d35206ce694df58aca900cf9591b39</sys_id>
+        <sys_metadata>66fb525b9793b55053f8b5a6f053afc7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>MobileTech Solutions</sys_name>
+        <sys_package display_value="MySmartphone Service Center" source="x_1129749_mysmartp">12ba0113975f755053f8b5a6f053af6a</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="MySmartphone Service Center">12ba0113975f755053f8b5a6f053af6a</sys_scope>
+        <sys_scope_delete display_value="">b01e8e6237734995a641a86aa7163701</sys_scope_delete>
+        <sys_update_name>sp_portal_66fb525b9793b55053f8b5a6f053afc7</sys_update_name>
+        <sys_update_version display_value="sp_portal_66fb525b9793b55053f8b5a6f053afc7">016d969b9793b55053f8b5a6f053af9d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-29 11:42:05</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
