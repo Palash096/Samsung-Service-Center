@@ -2,7 +2,8 @@
     <element audit="true" db_object_id="643e69db97df755053f8b5a6f053af93" extends="task" label="Tickets generated" max_length="40" name="x_1129749_mysmartp_tickets_generated" type="collection">
         <element label="Date of ticket closed" max_length="40" name="date_of_ticket_closed" type="glide_date"/>
         <element label="Date of ticket raised" max_length="40" name="date_of_ticket_raised" type="glide_date"/>
-        <element choice="1" label="Device problem" max_length="40" name="device_problem" type="choice">
+        <element dependent="device_problem" dependent_on_field="device_problem" label="Device Issue" max_length="4000" name="device_issue" type="glide_list" use_dependent_field="true"/>
+        <element choice="1" label="Device problem category" max_length="40" name="device_problem" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Hardware" value="hardware"/>
                 <element inactive_on_update="false" label="Software" value="software"/>

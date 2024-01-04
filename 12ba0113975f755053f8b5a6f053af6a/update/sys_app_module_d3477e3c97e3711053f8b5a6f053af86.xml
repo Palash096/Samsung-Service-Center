@@ -19,14 +19,14 @@
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
-        <roles>x_1129749_mysmartp.technician</roles>
+        <roles>x_1129749_mysmartp.technician,x_1129749_mysmartp.hardwareTechnicial,x_1129749_mysmartp.softwareTechnicial</roles>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-03 05:14:24</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>d3477e3c97e3711053f8b5a6f053af86</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Tickets assign to us</sys_name>
         <sys_overrides/>
         <sys_package display_value="MySmartphone Service Center" source="x_1129749_mysmartp">12ba0113975f755053f8b5a6f053af6a</sys_package>
@@ -34,7 +34,7 @@
         <sys_scope display_value="MySmartphone Service Center">12ba0113975f755053f8b5a6f053af6a</sys_scope>
         <sys_update_name>sys_app_module_d3477e3c97e3711053f8b5a6f053af86</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-03 05:14:24</sys_updated_on>
+        <sys_updated_on>2024-01-03 07:15:04</sys_updated_on>
         <timeline_page/>
         <title>Tickets assign to us</title>
         <uncancelable>false</uncancelable>
