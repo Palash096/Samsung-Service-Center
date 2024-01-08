@@ -29,7 +29,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>5ac8c1d997ebb11053f8b5a6f053af96</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>AssignToHardware</sys_name>
         <sys_overrides/>
         <sys_package display_value="MySmartphone Service Center" source="x_1129749_mysmartp">12ba0113975f755053f8b5a6f053af6a</sys_package>
@@ -37,8 +37,8 @@
         <sys_scope display_value="MySmartphone Service Center">12ba0113975f755053f8b5a6f053af6a</sys_scope>
         <sys_update_name>sysrule_assignment_5ac8c1d997ebb11053f8b5a6f053af96</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-04 10:30:16</sys_updated_on>
+        <sys_updated_on>2024-01-05 04:18:49</sys_updated_on>
         <table>x_1129749_mysmartp_tickets_generated</table>
-        <user display_value="John Thompson">99e695df975f755053f8b5a6f053afc9</user>
+        <user display_value="Rahul Sharma">7447d153979f755053f8b5a6f053af46</user>
     </sysrule_assignment>
 </record_update>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="wf_workflow_version">
     <wf_workflow_version action="INSERT_OR_UPDATE">
         <active>true</active>
-        <activity_stages>{"subflows":[],"ends":["cccfa80597eb711053f8b5a6f053afb5"],"stages":{},"activities":{}}</activity_stages>
+        <activity_stages>{"subflows":[],"ends":["e19cceb9976f351053f8b5a6f053af7d"],"stages":{},"activities":{}}</activity_stages>
         <after_business_rules>false</after_business_rules>
         <checked_out/>
         <checked_out_by/>
@@ -13,10 +13,10 @@
         </condition>
         <condition_type>run_match</condition_type>
         <description>Creating My Smartphone Service Center Workflow</description>
-        <expected_sequences>08cfac0597eb711053f8b5a6f053af3b,84cfac0597eb711053f8b5a6f053af3c,c8cfa80597eb711053f8b5a6f053afb6,c4cfac0597eb711053f8b5a6f053af37,08cfac0597eb711053f8b5a6f053af3a,c8cfa80597eb711053f8b5a6f053afb2,40cfa80597eb711053f8b5a6f053afb0,cccfa80597eb711053f8b5a6f053afb5</expected_sequences>
+        <expected_sequences>e59cceb9976f351053f8b5a6f053af6c,219cceb9976f351053f8b5a6f053af73,2d9cceb9976f351053f8b5a6f053af74,e59cceb9976f351053f8b5a6f053af7b,e59cceb9976f351053f8b5a6f053af7a,a19cceb9976f351053f8b5a6f053af79,259cceb9976f351053f8b5a6f053af71,219cceb9976f351053f8b5a6f053af70,2d9cceb9976f351053f8b5a6f053af75,e19cceb9976f351053f8b5a6f053af7d</expected_sequences>
         <expected_time>1970-01-01 14:00:00</expected_time>
         <expected_time_type/>
-        <full_sequences>08cfac0597eb711053f8b5a6f053af3b,84cfac0597eb711053f8b5a6f053af3c,c8cfa80597eb711053f8b5a6f053afb6,c4cfac0597eb711053f8b5a6f053af37,08cfac0597eb711053f8b5a6f053af3a,c8cfa80597eb711053f8b5a6f053afb2,40cfa80597eb711053f8b5a6f053afb0,c0cfac0597eb711053f8b5a6f053af39,cccfa80597eb711053f8b5a6f053afb5,04cfa80597eb711053f8b5a6f053afb4</full_sequences>
+        <full_sequences>e59cceb9976f351053f8b5a6f053af6c,219cceb9976f351053f8b5a6f053af73,2d9cceb9976f351053f8b5a6f053af74,e59cceb9976f351053f8b5a6f053af7b,e59cceb9976f351053f8b5a6f053af7a,a19cceb9976f351053f8b5a6f053af79,259cceb9976f351053f8b5a6f053af71,699cceb9976f351053f8b5a6f053af77,219cceb9976f351053f8b5a6f053af70,a99cceb9976f351053f8b5a6f053af6d,2d9cceb9976f351053f8b5a6f053af75,e19cceb9976f351053f8b5a6f053af7d</full_sequences>
         <journal/>
         <max_activity_count>100</max_activity_count>
         <name>MySmartphone service Workflow</name>
@@ -31,16 +31,16 @@
         <schedule/>
         <stage_field/>
         <stage_order>computed</stage_order>
-        <start display_value="Begin">08cfac0597eb711053f8b5a6f053af3b</start>
+        <start display_value="Begin">e59cceb9976f351053f8b5a6f053af6c</start>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-03 13:58:50</sys_created_on>
-        <sys_id>40cfa80597eb711053f8b5a6f053afae</sys_id>
-        <sys_mod_count>55</sys_mod_count>
+        <sys_created_on>2024-01-06 04:39:53</sys_created_on>
+        <sys_id>259c0e79976f351053f8b5a6f053af2d</sys_id>
+        <sys_mod_count>58</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-04 05:24:56</sys_updated_on>
+        <sys_updated_on>2024-01-06 04:41:56</sys_updated_on>
         <table>x_1129749_mysmartp_tickets_generated</table>
         <timezone/>
-        <validated>true</validated>
+        <validated>false</validated>
         <workflow display_value="MySmartphone service Workflow">b0b188c1972b711053f8b5a6f053affe</workflow>
     </wf_workflow_version>
     <wf_workflow action="INSERT_OR_UPDATE">
@@ -83,191 +83,221 @@
         <pinned_version/>
         <stage/>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-03 13:58:50</sys_created_on>
-        <sys_id>40cfa80597eb711053f8b5a6f053afb0</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_created_on>2024-01-06 04:39:53</sys_created_on>
+        <sys_id>259cceb9976f351053f8b5a6f053af71</sys_id>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-04 05:21:43</sys_updated_on>
+        <sys_updated_on>2024-01-06 04:41:33</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="MySmartphone service Workflow">40cfa80597eb711053f8b5a6f053afae</workflow_version>
-        <x>881</x>
-        <y>32</y>
+        <workflow_version display_value="MySmartphone service Workflow">259c0e79976f351053f8b5a6f053af2d</workflow_version>
+        <x>1210</x>
+        <y>36</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=40cfa80597eb711053f8b5a6f053afb0"/>
+    <sys_variable_value action="delete_multiple" query="document_key=259cceb9976f351053f8b5a6f053af71"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>40cfa80597eb711053f8b5a6f053afb0</document_key>
-        <order>100</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-03 13:58:50</sys_created_on>
-        <sys_id>08cfa80597eb711053f8b5a6f053afb0</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-03 13:58:50</sys_updated_on>
-        <value>6816f79cc0a8016401c5a33be04be441,palashkardhekar511@gmail.com,${assigned_to.manager}</value>
-        <variable display_value="To">c35daa890a0a0ba96248a709c32994d6</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>40cfa80597eb711053f8b5a6f053afb0</document_key>
-        <order>300</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-03 13:58:50</sys_created_on>
-        <sys_id>08cfa80597eb711053f8b5a6f053afb1</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-03 13:58:50</sys_updated_on>
-        <value>Hello Hardware</value>
-        <variable display_value="Message">c35db5a50a0a0ba96248a70938ae8de6</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>40cfa80597eb711053f8b5a6f053afb0</document_key>
-        <order>200</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-03 13:58:50</sys_created_on>
-        <sys_id>44cfa80597eb711053f8b5a6f053afb1</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-03 13:58:50</sys_updated_on>
-        <value>Hii Hardware</value>
-        <variable display_value="Subject">c35db2180a0a0ba96248a709d1b6df20</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>40cfa80597eb711053f8b5a6f053afb0</document_key>
+        <document_key>259cceb9976f351053f8b5a6f053af71</document_key>
         <order>500</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-03 13:58:50</sys_created_on>
-        <sys_id>80cfa80597eb711053f8b5a6f053afb1</sys_id>
+        <sys_created_on>2024-01-06 04:39:53</sys_created_on>
+        <sys_id>2d9cceb9976f351053f8b5a6f053af71</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-03 13:58:50</sys_updated_on>
+        <sys_updated_on>2024-01-06 04:39:53</sys_updated_on>
         <value>// Set the variable 'answer' to a comma-separated list of user or group sys_ids that you want the email sent to.&#13;
 </value>
         <variable display_value="To (script)">c35dae3d0a0a0ba96248a7098ed9b4aa</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>40cfa80597eb711053f8b5a6f053afb0</document_key>
+        <document_key>259cceb9976f351053f8b5a6f053af71</document_key>
         <order>150</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-03 13:58:50</sys_created_on>
-        <sys_id>c8cfa80597eb711053f8b5a6f053afb1</sys_id>
+        <sys_created_on>2024-01-06 04:39:53</sys_created_on>
+        <sys_id>659cceb9976f351053f8b5a6f053af72</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-03 13:58:50</sys_updated_on>
+        <sys_updated_on>2024-01-06 04:39:53</sys_updated_on>
         <value>${assignment_group}</value>
         <variable display_value="To (groups)">ae2121c70a0a0b3459708c9a60cd7312</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>40cfa80597eb711053f8b5a6f053afb0</document_key>
+        <document_key>259cceb9976f351053f8b5a6f053af71</document_key>
         <order>400</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-03 13:58:50</sys_created_on>
-        <sys_id>cccfa80597eb711053f8b5a6f053afb0</sys_id>
+        <sys_created_on>2024-01-06 04:39:53</sys_created_on>
+        <sys_id>699cceb9976f351053f8b5a6f053af71</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-03 13:58:50</sys_updated_on>
+        <sys_updated_on>2024-01-06 04:39:53</sys_updated_on>
         <value>0</value>
         <variable display_value="Advanced">6d6816cd0a6a803f0853a8df38007572</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>40cfa80597eb711053f8b5a6f053afb0</document_key>
+        <document_key>259cceb9976f351053f8b5a6f053af71</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-06 04:39:53</sys_created_on>
+        <sys_id>a19cceb9976f351053f8b5a6f053af72</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-06 04:39:53</sys_updated_on>
+        <value>Dear ${assigned_to},&#13;
+&#13;
+This is to inform you that an incident ${number} has been assigned to you&#13;
+&#13;
+Incident Number: ${number}&#13;
+Short Description:  ${short_description}&#13;
+Assigned to:  ${assigned_to}&#13;
+Priority:  ${priority}&#13;
+Date/Time of Assignment: ${assignment_group.sys_created_on}&#13;
+&#13;
+Thank you for your attention to this matter.&#13;
+&#13;
+Best regards,&#13;
+MobileTech Solutions&#13;
+Assignment group Created: ${assignment_group.sys_created_on}&#13;
+</value>
+        <variable display_value="Message">c35db5a50a0a0ba96248a70938ae8de6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>259cceb9976f351053f8b5a6f053af71</document_key>
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-03 13:58:50</sys_created_on>
-        <sys_id>08cfa80597eb711053f8b5a6f053afb0</sys_id>
+        <sys_created_on>2024-01-06 04:39:53</sys_created_on>
+        <sys_id>a59cceb9976f351053f8b5a6f053af71</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-03 13:58:50</sys_updated_on>
+        <sys_updated_on>2024-01-06 04:39:53</sys_updated_on>
         <value>6816f79cc0a8016401c5a33be04be441,palashkardhekar511@gmail.com,${assigned_to.manager}</value>
         <variable display_value="To">c35daa890a0a0ba96248a709c32994d6</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>40cfa80597eb711053f8b5a6f053afb0</document_key>
+        <document_key>259cceb9976f351053f8b5a6f053af71</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-06 04:39:53</sys_created_on>
+        <sys_id>ed9cceb9976f351053f8b5a6f053af71</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-06 04:39:53</sys_updated_on>
+        <value>Notification of Assigned Incident - ${number}</value>
+        <variable display_value="Subject">c35db2180a0a0ba96248a709d1b6df20</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>259cceb9976f351053f8b5a6f053af71</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-06 04:39:53</sys_created_on>
+        <sys_id>a59cceb9976f351053f8b5a6f053af71</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-06 04:39:53</sys_updated_on>
+        <value>6816f79cc0a8016401c5a33be04be441,palashkardhekar511@gmail.com,${assigned_to.manager}</value>
+        <variable display_value="To">c35daa890a0a0ba96248a709c32994d6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>259cceb9976f351053f8b5a6f053af71</document_key>
         <order>150</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-03 13:58:50</sys_created_on>
-        <sys_id>c8cfa80597eb711053f8b5a6f053afb1</sys_id>
+        <sys_created_on>2024-01-06 04:39:53</sys_created_on>
+        <sys_id>659cceb9976f351053f8b5a6f053af72</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-03 13:58:50</sys_updated_on>
+        <sys_updated_on>2024-01-06 04:39:53</sys_updated_on>
         <value>${assignment_group}</value>
         <variable display_value="To (groups)">ae2121c70a0a0b3459708c9a60cd7312</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>40cfa80597eb711053f8b5a6f053afb0</document_key>
+        <document_key>259cceb9976f351053f8b5a6f053af71</document_key>
         <order>200</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-03 13:58:50</sys_created_on>
-        <sys_id>44cfa80597eb711053f8b5a6f053afb1</sys_id>
+        <sys_created_on>2024-01-06 04:39:53</sys_created_on>
+        <sys_id>ed9cceb9976f351053f8b5a6f053af71</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-03 13:58:50</sys_updated_on>
-        <value>Hii Hardware</value>
+        <sys_updated_on>2024-01-06 04:39:53</sys_updated_on>
+        <value>Notification of Assigned Incident - ${number}</value>
         <variable display_value="Subject">c35db2180a0a0ba96248a709d1b6df20</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>40cfa80597eb711053f8b5a6f053afb0</document_key>
+        <document_key>259cceb9976f351053f8b5a6f053af71</document_key>
         <order>300</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-03 13:58:50</sys_created_on>
-        <sys_id>08cfa80597eb711053f8b5a6f053afb1</sys_id>
+        <sys_created_on>2024-01-06 04:39:53</sys_created_on>
+        <sys_id>a19cceb9976f351053f8b5a6f053af72</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-03 13:58:50</sys_updated_on>
-        <value>Hello Hardware</value>
+        <sys_updated_on>2024-01-06 04:39:53</sys_updated_on>
+        <value>Dear ${assigned_to},&#13;
+&#13;
+This is to inform you that an incident ${number} has been assigned to you&#13;
+&#13;
+Incident Number: ${number}&#13;
+Short Description:  ${short_description}&#13;
+Assigned to:  ${assigned_to}&#13;
+Priority:  ${priority}&#13;
+Date/Time of Assignment: ${assignment_group.sys_created_on}&#13;
+&#13;
+Thank you for your attention to this matter.&#13;
+&#13;
+Best regards,&#13;
+MobileTech Solutions&#13;
+Assignment group Created: ${assignment_group.sys_created_on}&#13;
+</value>
         <variable display_value="Message">c35db5a50a0a0ba96248a70938ae8de6</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>40cfa80597eb711053f8b5a6f053afb0</document_key>
+        <document_key>259cceb9976f351053f8b5a6f053af71</document_key>
         <order>400</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-03 13:58:50</sys_created_on>
-        <sys_id>cccfa80597eb711053f8b5a6f053afb0</sys_id>
+        <sys_created_on>2024-01-06 04:39:53</sys_created_on>
+        <sys_id>699cceb9976f351053f8b5a6f053af71</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-03 13:58:50</sys_updated_on>
+        <sys_updated_on>2024-01-06 04:39:53</sys_updated_on>
         <value>0</value>
         <variable display_value="Advanced">6d6816cd0a6a803f0853a8df38007572</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>40cfa80597eb711053f8b5a6f053afb0</document_key>
+        <document_key>259cceb9976f351053f8b5a6f053af71</document_key>
         <order>500</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-03 13:58:50</sys_created_on>
-        <sys_id>80cfa80597eb711053f8b5a6f053afb1</sys_id>
+        <sys_created_on>2024-01-06 04:39:53</sys_created_on>
+        <sys_id>2d9cceb9976f351053f8b5a6f053af71</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-03 13:58:50</sys_updated_on>
+        <sys_updated_on>2024-01-06 04:39:53</sys_updated_on>
         <value>// Set the variable 'answer' to a comma-separated list of user or group sys_ids that you want the email sent to.&#13;
 </value>
         <variable display_value="To (script)">c35dae3d0a0a0ba96248a7098ed9b4aa</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Assign Incident to Hardware Department">40cfa80597eb711053f8b5a6f053afb0</activity>
+        <activity display_value="Assign Incident to Hardware Department">259cceb9976f351053f8b5a6f053af71</activity>
         <condition>true</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -281,11 +311,11 @@
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-03 13:58:50</sys_created_on>
-        <sys_id>40cfa80597eb711053f8b5a6f053afb2</sys_id>
+        <sys_created_on>2024-01-06 04:39:53</sys_created_on>
+        <sys_id>699cceb9976f351053f8b5a6f053af72</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-03 13:58:50</sys_updated_on>
+        <sys_updated_on>2024-01-06 04:39:53</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Notification">0a6c97790a0a0b2756919eb960284334</activity_definition>
@@ -303,191 +333,219 @@
         <pinned_version/>
         <stage/>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-03 13:58:50</sys_created_on>
-        <sys_id>04cfa80597eb711053f8b5a6f053afb4</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_created_on>2024-01-06 04:39:53</sys_created_on>
+        <sys_id>a99cceb9976f351053f8b5a6f053af6d</sys_id>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-04 05:21:30</sys_updated_on>
+        <sys_updated_on>2024-01-06 04:41:47</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="MySmartphone service Workflow">40cfa80597eb711053f8b5a6f053afae</workflow_version>
-        <x>668</x>
-        <y>327</y>
+        <workflow_version display_value="MySmartphone service Workflow">259c0e79976f351053f8b5a6f053af2d</workflow_version>
+        <x>1366</x>
+        <y>181</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=04cfa80597eb711053f8b5a6f053afb4"/>
+    <sys_variable_value action="delete_multiple" query="document_key=a99cceb9976f351053f8b5a6f053af6d"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>04cfa80597eb711053f8b5a6f053afb4</document_key>
+        <document_key>a99cceb9976f351053f8b5a6f053af6d</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-06 04:39:53</sys_created_on>
+        <sys_id>2d9cceb9976f351053f8b5a6f053af6e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-06 04:39:53</sys_updated_on>
+        <value>Notification of Assigned Incident - ${number}</value>
+        <variable display_value="Subject">c35db2180a0a0ba96248a709d1b6df20</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>a99cceb9976f351053f8b5a6f053af6d</document_key>
         <order>500</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-03 13:58:50</sys_created_on>
-        <sys_id>0ccfa80597eb711053f8b5a6f053afb4</sys_id>
+        <sys_created_on>2024-01-06 04:39:53</sys_created_on>
+        <sys_id>699cceb9976f351053f8b5a6f053af6e</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-03 13:58:50</sys_updated_on>
+        <sys_updated_on>2024-01-06 04:39:53</sys_updated_on>
         <value>// Set the variable 'answer' to a comma-separated list of user or group sys_ids that you want the email sent to.&#13;
 </value>
         <variable display_value="To (script)">c35dae3d0a0a0ba96248a7098ed9b4aa</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>04cfa80597eb711053f8b5a6f053afb4</document_key>
+        <document_key>a99cceb9976f351053f8b5a6f053af6d</document_key>
         <order>150</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-03 13:58:50</sys_created_on>
-        <sys_id>44cfa80597eb711053f8b5a6f053afb5</sys_id>
+        <sys_created_on>2024-01-06 04:39:53</sys_created_on>
+        <sys_id>a19cceb9976f351053f8b5a6f053af6f</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-03 13:58:50</sys_updated_on>
+        <sys_updated_on>2024-01-06 04:39:53</sys_updated_on>
         <value>${assignment_group}</value>
         <variable display_value="To (groups)">ae2121c70a0a0b3459708c9a60cd7312</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>04cfa80597eb711053f8b5a6f053afb4</document_key>
+        <document_key>a99cceb9976f351053f8b5a6f053af6d</document_key>
         <order>400</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-03 13:58:50</sys_created_on>
-        <sys_id>48cfa80597eb711053f8b5a6f053afb4</sys_id>
+        <sys_created_on>2024-01-06 04:39:53</sys_created_on>
+        <sys_id>a59cceb9976f351053f8b5a6f053af6e</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-03 13:58:50</sys_updated_on>
+        <sys_updated_on>2024-01-06 04:39:53</sys_updated_on>
         <value>0</value>
         <variable display_value="Advanced">6d6816cd0a6a803f0853a8df38007572</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>04cfa80597eb711053f8b5a6f053afb4</document_key>
+        <document_key>a99cceb9976f351053f8b5a6f053af6d</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-06 04:39:53</sys_created_on>
+        <sys_id>ad9cceb9976f351053f8b5a6f053af6d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-06 04:39:53</sys_updated_on>
+        <value>6816f79cc0a8016401c5a33be04be441,palashkardhekar511@gmail.com,${assigned_to.manager}</value>
+        <variable display_value="To">c35daa890a0a0ba96248a709c32994d6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>a99cceb9976f351053f8b5a6f053af6d</document_key>
         <order>300</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-03 13:58:50</sys_created_on>
-        <sys_id>80cfa80597eb711053f8b5a6f053afb5</sys_id>
+        <sys_created_on>2024-01-06 04:39:53</sys_created_on>
+        <sys_id>ed9cceb9976f351053f8b5a6f053af6e</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-03 13:58:50</sys_updated_on>
-        <value>Hello</value>
+        <sys_updated_on>2024-01-06 04:39:53</sys_updated_on>
+        <value>Dear ${assigned_to},&#13;
+&#13;
+This is to inform you that an incident ${number} has been assigned to you&#13;
+&#13;
+Incident Number: ${number}&#13;
+Short Description:  ${short_description}&#13;
+Assigned to:  ${assigned_to}&#13;
+Priority:  ${priority}&#13;
+Date/Time of Assignment: ${assignment_group.sys_created_on}&#13;
+&#13;
+Thank you for your attention to this matter.&#13;
+&#13;
+Best regards,&#13;
+MobileTech Solutions&#13;
+Assignment group Created: ${assignment_group.sys_created_on}</value>
         <variable display_value="Message">c35db5a50a0a0ba96248a70938ae8de6</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>04cfa80597eb711053f8b5a6f053afb4</document_key>
+        <document_key>a99cceb9976f351053f8b5a6f053af6d</document_key>
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-03 13:58:50</sys_created_on>
-        <sys_id>84cfa80597eb711053f8b5a6f053afb4</sys_id>
+        <sys_created_on>2024-01-06 04:39:53</sys_created_on>
+        <sys_id>ad9cceb9976f351053f8b5a6f053af6d</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-03 13:58:50</sys_updated_on>
+        <sys_updated_on>2024-01-06 04:39:53</sys_updated_on>
         <value>6816f79cc0a8016401c5a33be04be441,palashkardhekar511@gmail.com,${assigned_to.manager}</value>
         <variable display_value="To">c35daa890a0a0ba96248a709c32994d6</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>04cfa80597eb711053f8b5a6f053afb4</document_key>
-        <order>200</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-03 13:58:50</sys_created_on>
-        <sys_id>cccfa80597eb711053f8b5a6f053afb4</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-03 13:58:50</sys_updated_on>
-        <value>Hii</value>
-        <variable display_value="Subject">c35db2180a0a0ba96248a709d1b6df20</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>04cfa80597eb711053f8b5a6f053afb4</document_key>
-        <order>100</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-03 13:58:50</sys_created_on>
-        <sys_id>84cfa80597eb711053f8b5a6f053afb4</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-03 13:58:50</sys_updated_on>
-        <value>6816f79cc0a8016401c5a33be04be441,palashkardhekar511@gmail.com,${assigned_to.manager}</value>
-        <variable display_value="To">c35daa890a0a0ba96248a709c32994d6</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>04cfa80597eb711053f8b5a6f053afb4</document_key>
+        <document_key>a99cceb9976f351053f8b5a6f053af6d</document_key>
         <order>150</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-03 13:58:50</sys_created_on>
-        <sys_id>44cfa80597eb711053f8b5a6f053afb5</sys_id>
+        <sys_created_on>2024-01-06 04:39:53</sys_created_on>
+        <sys_id>a19cceb9976f351053f8b5a6f053af6f</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-03 13:58:50</sys_updated_on>
+        <sys_updated_on>2024-01-06 04:39:53</sys_updated_on>
         <value>${assignment_group}</value>
         <variable display_value="To (groups)">ae2121c70a0a0b3459708c9a60cd7312</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>04cfa80597eb711053f8b5a6f053afb4</document_key>
+        <document_key>a99cceb9976f351053f8b5a6f053af6d</document_key>
         <order>200</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-03 13:58:50</sys_created_on>
-        <sys_id>cccfa80597eb711053f8b5a6f053afb4</sys_id>
+        <sys_created_on>2024-01-06 04:39:53</sys_created_on>
+        <sys_id>2d9cceb9976f351053f8b5a6f053af6e</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-03 13:58:50</sys_updated_on>
-        <value>Hii</value>
+        <sys_updated_on>2024-01-06 04:39:53</sys_updated_on>
+        <value>Notification of Assigned Incident - ${number}</value>
         <variable display_value="Subject">c35db2180a0a0ba96248a709d1b6df20</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>04cfa80597eb711053f8b5a6f053afb4</document_key>
+        <document_key>a99cceb9976f351053f8b5a6f053af6d</document_key>
         <order>300</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-03 13:58:50</sys_created_on>
-        <sys_id>80cfa80597eb711053f8b5a6f053afb5</sys_id>
+        <sys_created_on>2024-01-06 04:39:53</sys_created_on>
+        <sys_id>ed9cceb9976f351053f8b5a6f053af6e</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-03 13:58:50</sys_updated_on>
-        <value>Hello</value>
+        <sys_updated_on>2024-01-06 04:39:53</sys_updated_on>
+        <value>Dear ${assigned_to},&#13;
+&#13;
+This is to inform you that an incident ${number} has been assigned to you&#13;
+&#13;
+Incident Number: ${number}&#13;
+Short Description:  ${short_description}&#13;
+Assigned to:  ${assigned_to}&#13;
+Priority:  ${priority}&#13;
+Date/Time of Assignment: ${assignment_group.sys_created_on}&#13;
+&#13;
+Thank you for your attention to this matter.&#13;
+&#13;
+Best regards,&#13;
+MobileTech Solutions&#13;
+Assignment group Created: ${assignment_group.sys_created_on}</value>
         <variable display_value="Message">c35db5a50a0a0ba96248a70938ae8de6</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>04cfa80597eb711053f8b5a6f053afb4</document_key>
+        <document_key>a99cceb9976f351053f8b5a6f053af6d</document_key>
         <order>400</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-03 13:58:50</sys_created_on>
-        <sys_id>48cfa80597eb711053f8b5a6f053afb4</sys_id>
+        <sys_created_on>2024-01-06 04:39:53</sys_created_on>
+        <sys_id>a59cceb9976f351053f8b5a6f053af6e</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-03 13:58:50</sys_updated_on>
+        <sys_updated_on>2024-01-06 04:39:53</sys_updated_on>
         <value>0</value>
         <variable display_value="Advanced">6d6816cd0a6a803f0853a8df38007572</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>04cfa80597eb711053f8b5a6f053afb4</document_key>
+        <document_key>a99cceb9976f351053f8b5a6f053af6d</document_key>
         <order>500</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-03 13:58:50</sys_created_on>
-        <sys_id>0ccfa80597eb711053f8b5a6f053afb4</sys_id>
+        <sys_created_on>2024-01-06 04:39:53</sys_created_on>
+        <sys_id>699cceb9976f351053f8b5a6f053af6e</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-03 13:58:50</sys_updated_on>
+        <sys_updated_on>2024-01-06 04:39:53</sys_updated_on>
         <value>// Set the variable 'answer' to a comma-separated list of user or group sys_ids that you want the email sent to.&#13;
 </value>
         <variable display_value="To (script)">c35dae3d0a0a0ba96248a7098ed9b4aa</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Assign Incident to Software Department">04cfa80597eb711053f8b5a6f053afb4</activity>
+        <activity display_value="Assign Incident to Software Department">a99cceb9976f351053f8b5a6f053af6d</activity>
         <condition>true</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -501,11 +559,11 @@
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-03 13:58:50</sys_created_on>
-        <sys_id>48cfa80597eb711053f8b5a6f053afb5</sys_id>
+        <sys_created_on>2024-01-06 04:39:53</sys_created_on>
+        <sys_id>299cceb9976f351053f8b5a6f053af6f</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-03 13:58:50</sys_updated_on>
+        <sys_updated_on>2024-01-06 04:39:53</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Begin">c7a5e32c0a0a0b3a002377c24ed8ea76</activity_definition>
@@ -523,21 +581,21 @@
         <pinned_version/>
         <stage/>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-03 13:58:50</sys_created_on>
-        <sys_id>08cfac0597eb711053f8b5a6f053af3b</sys_id>
+        <sys_created_on>2024-01-06 04:39:53</sys_created_on>
+        <sys_id>e59cceb9976f351053f8b5a6f053af6c</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-03 13:58:50</sys_updated_on>
+        <sys_updated_on>2024-01-06 04:39:53</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width>80</width>
-        <workflow_version display_value="MySmartphone service Workflow">40cfa80597eb711053f8b5a6f053afae</workflow_version>
+        <workflow_version display_value="MySmartphone service Workflow">259c0e79976f351053f8b5a6f053af2d</workflow_version>
         <x>20</x>
         <y>20</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=08cfac0597eb711053f8b5a6f053af3b"/>
+    <sys_variable_value action="delete_multiple" query="document_key=e59cceb9976f351053f8b5a6f053af6c"/>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Begin">08cfac0597eb711053f8b5a6f053af3b</activity>
+        <activity display_value="Begin">e59cceb9976f351053f8b5a6f053af6c</activity>
         <condition>true</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -551,11 +609,11 @@
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-03 13:58:50</sys_created_on>
-        <sys_id>cccfac0597eb711053f8b5a6f053af3b</sys_id>
+        <sys_created_on>2024-01-06 04:39:53</sys_created_on>
+        <sys_id>219cceb9976f351053f8b5a6f053af6d</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-03 13:58:50</sys_updated_on>
+        <sys_updated_on>2024-01-06 04:39:53</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="End">c7a66f7d0a0a0b3a004544a6d2f14076</activity_definition>
@@ -573,19 +631,283 @@
         <pinned_version/>
         <stage/>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-03 13:58:50</sys_created_on>
-        <sys_id>cccfa80597eb711053f8b5a6f053afb5</sys_id>
+        <sys_created_on>2024-01-06 04:39:53</sys_created_on>
+        <sys_id>e19cceb9976f351053f8b5a6f053af7d</sys_id>
         <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-04 05:21:40</sys_updated_on>
+        <sys_updated_on>2024-01-06 04:40:48</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width>80</width>
-        <workflow_version display_value="MySmartphone service Workflow">40cfa80597eb711053f8b5a6f053afae</workflow_version>
-        <x>1069</x>
-        <y>526</y>
+        <workflow_version display_value="MySmartphone service Workflow">259c0e79976f351053f8b5a6f053af2d</workflow_version>
+        <x>1660</x>
+        <y>530</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=cccfa80597eb711053f8b5a6f053afb5"/>
+    <sys_variable_value action="delete_multiple" query="document_key=e19cceb9976f351053f8b5a6f053af7d"/>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Notification">0a6c97790a0a0b2756919eb960284334</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>12</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Final Bill Generation</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-06 04:39:53</sys_created_on>
+        <sys_id>2d9cceb9976f351053f8b5a6f053af75</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-06 04:41:49</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="MySmartphone service Workflow">259c0e79976f351053f8b5a6f053af2d</workflow_version>
+        <x>1573</x>
+        <y>375</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=2d9cceb9976f351053f8b5a6f053af75"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>2d9cceb9976f351053f8b5a6f053af75</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-06 04:39:53</sys_created_on>
+        <sys_id>259cceb9976f351053f8b5a6f053af76</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-06 04:39:53</sys_updated_on>
+        <value>// Set the variable 'answer' to a comma-separated list of user or group sys_ids that you want the email sent to.&#13;
+</value>
+        <variable display_value="To (script)">c35dae3d0a0a0ba96248a7098ed9b4aa</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>2d9cceb9976f351053f8b5a6f053af75</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-06 04:39:53</sys_created_on>
+        <sys_id>619cceb9976f351053f8b5a6f053af76</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-06 04:39:53</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Advanced">6d6816cd0a6a803f0853a8df38007572</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>2d9cceb9976f351053f8b5a6f053af75</document_key>
+        <order>150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-06 04:39:53</sys_created_on>
+        <sys_id>6d9cceb9976f351053f8b5a6f053af76</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-06 04:39:53</sys_updated_on>
+        <value/>
+        <variable display_value="To (groups)">ae2121c70a0a0b3459708c9a60cd7312</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>2d9cceb9976f351053f8b5a6f053af75</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-06 04:39:53</sys_created_on>
+        <sys_id>a99cceb9976f351053f8b5a6f053af76</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-06 04:39:53</sys_updated_on>
+        <value>Dear ${u_customer_name_1},&#13;
+&#13;
+We're pleased to inform you that the repairs on your smartphone have been successfully completed. Your final bill is now available for your review.&#13;
+&#13;
+Invoice Details:&#13;
+&#13;
+Invoice Number: ${number}&#13;
+Device Model:  ${mobile_model}&#13;
+Device problem category: ${device_problem}&#13;
+Device Issue: ${device_issue}&#13;
+Basic Service Charges :- Rps 420&#13;
+Screen Repairing charges :- 1500&#13;
+Total Amount Due: Rps 1920&#13;
+You can view and download your final invoice by logging into your account on our service portal. Please find the invoice in the "Billing" or "Invoices" section.&#13;
+&#13;
+If you have any queries or require assistance regarding the invoice or repairs conducted, our customer support team is readily available to assist you.&#13;
+&#13;
+Thank you for choosing our repair services. We appreciate your trust in us and look forward to serving you again in the future.&#13;
+&#13;
+Best regards,&#13;
+MobileTech Solutions&#13;
+Mobile Number:  +91-56452589&#13;
+</value>
+        <variable display_value="Message">c35db5a50a0a0ba96248a70938ae8de6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>2d9cceb9976f351053f8b5a6f053af75</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-06 04:39:53</sys_created_on>
+        <sys_id>ad9cceb9976f351053f8b5a6f053af75</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-06 04:39:53</sys_updated_on>
+        <value>6816f79cc0a8016401c5a33be04be441,${u_customer_name_1},palashkardhekar511@gmail.com</value>
+        <variable display_value="To">c35daa890a0a0ba96248a709c32994d6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>2d9cceb9976f351053f8b5a6f053af75</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-06 04:39:53</sys_created_on>
+        <sys_id>e59cceb9976f351053f8b5a6f053af76</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-06 04:39:53</sys_updated_on>
+        <value>Final Invoice for Repaired Smartphone - ${number}</value>
+        <variable display_value="Subject">c35db2180a0a0ba96248a709d1b6df20</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>2d9cceb9976f351053f8b5a6f053af75</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-06 04:39:53</sys_created_on>
+        <sys_id>ad9cceb9976f351053f8b5a6f053af75</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-06 04:39:53</sys_updated_on>
+        <value>6816f79cc0a8016401c5a33be04be441,${u_customer_name_1},palashkardhekar511@gmail.com</value>
+        <variable display_value="To">c35daa890a0a0ba96248a709c32994d6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>2d9cceb9976f351053f8b5a6f053af75</document_key>
+        <order>150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-06 04:39:53</sys_created_on>
+        <sys_id>6d9cceb9976f351053f8b5a6f053af76</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-06 04:39:53</sys_updated_on>
+        <value/>
+        <variable display_value="To (groups)">ae2121c70a0a0b3459708c9a60cd7312</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>2d9cceb9976f351053f8b5a6f053af75</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-06 04:39:53</sys_created_on>
+        <sys_id>e59cceb9976f351053f8b5a6f053af76</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-06 04:39:53</sys_updated_on>
+        <value>Final Invoice for Repaired Smartphone - ${number}</value>
+        <variable display_value="Subject">c35db2180a0a0ba96248a709d1b6df20</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>2d9cceb9976f351053f8b5a6f053af75</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-06 04:39:53</sys_created_on>
+        <sys_id>a99cceb9976f351053f8b5a6f053af76</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-06 04:39:53</sys_updated_on>
+        <value>Dear ${u_customer_name_1},&#13;
+&#13;
+We're pleased to inform you that the repairs on your smartphone have been successfully completed. Your final bill is now available for your review.&#13;
+&#13;
+Invoice Details:&#13;
+&#13;
+Invoice Number: ${number}&#13;
+Device Model:  ${mobile_model}&#13;
+Device problem category: ${device_problem}&#13;
+Device Issue: ${device_issue}&#13;
+Basic Service Charges :- Rps 420&#13;
+Screen Repairing charges :- 1500&#13;
+Total Amount Due: Rps 1920&#13;
+You can view and download your final invoice by logging into your account on our service portal. Please find the invoice in the "Billing" or "Invoices" section.&#13;
+&#13;
+If you have any queries or require assistance regarding the invoice or repairs conducted, our customer support team is readily available to assist you.&#13;
+&#13;
+Thank you for choosing our repair services. We appreciate your trust in us and look forward to serving you again in the future.&#13;
+&#13;
+Best regards,&#13;
+MobileTech Solutions&#13;
+Mobile Number:  +91-56452589&#13;
+</value>
+        <variable display_value="Message">c35db5a50a0a0ba96248a70938ae8de6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>2d9cceb9976f351053f8b5a6f053af75</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-06 04:39:53</sys_created_on>
+        <sys_id>619cceb9976f351053f8b5a6f053af76</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-06 04:39:53</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Advanced">6d6816cd0a6a803f0853a8df38007572</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>2d9cceb9976f351053f8b5a6f053af75</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-06 04:39:53</sys_created_on>
+        <sys_id>259cceb9976f351053f8b5a6f053af76</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-06 04:39:53</sys_updated_on>
+        <value>// Set the variable 'answer' to a comma-separated list of user or group sys_ids that you want the email sent to.&#13;
+</value>
+        <variable display_value="To (script)">c35dae3d0a0a0ba96248a7098ed9b4aa</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Final Bill Generation">2d9cceb9976f351053f8b5a6f053af75</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-06 04:39:53</sys_created_on>
+        <sys_id>619cceb9976f351053f8b5a6f053af77</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-06 04:39:53</sys_updated_on>
+    </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="If">98f621ca0a0a0b5900f7c291f5e45a0e</activity_definition>
         <activity_definition_updated>false</activity_definition_updated>
@@ -602,30 +924,44 @@
         <pinned_version/>
         <stage/>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-03 13:58:50</sys_created_on>
-        <sys_id>c8cfa80597eb711053f8b5a6f053afb2</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_created_on>2024-01-06 04:39:53</sys_created_on>
+        <sys_id>a19cceb9976f351053f8b5a6f053af79</sys_id>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-04 05:21:21</sys_updated_on>
+        <sys_updated_on>2024-01-06 04:41:29</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="MySmartphone service Workflow">40cfa80597eb711053f8b5a6f053afae</workflow_version>
-        <x>649</x>
-        <y>8</y>
+        <workflow_version display_value="MySmartphone service Workflow">259c0e79976f351053f8b5a6f053af2d</workflow_version>
+        <x>944</x>
+        <y>21</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=c8cfa80597eb711053f8b5a6f053afb2"/>
+    <sys_variable_value action="delete_multiple" query="document_key=a19cceb9976f351053f8b5a6f053af79"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>c8cfa80597eb711053f8b5a6f053afb2</document_key>
+        <document_key>a19cceb9976f351053f8b5a6f053af79</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-06 04:39:53</sys_created_on>
+        <sys_id>259cceb9976f351053f8b5a6f053af79</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-06 04:39:53</sys_updated_on>
+        <value>assignment_group=d98b1957979f755053f8b5a6f053af00^EQ</value>
+        <variable display_value="Condition">493cba6a0a6a803f07df24b118473551</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>a19cceb9976f351053f8b5a6f053af79</document_key>
         <order>300</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-03 13:58:50</sys_created_on>
-        <sys_id>44cfa80597eb711053f8b5a6f053afb3</sys_id>
+        <sys_created_on>2024-01-06 04:39:53</sys_created_on>
+        <sys_id>a99cceb9976f351053f8b5a6f053af79</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-03 13:58:50</sys_updated_on>
+        <sys_updated_on>2024-01-06 04:39:53</sys_updated_on>
         <value>// This script needs to set answer to 'yes' or 'no' to indicate the state of the activity.&#13;
 //&#13;
 // For example,&#13;
@@ -643,71 +979,57 @@
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>c8cfa80597eb711053f8b5a6f053afb2</document_key>
+        <document_key>a19cceb9976f351053f8b5a6f053af79</document_key>
         <order>200</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-03 13:58:50</sys_created_on>
-        <sys_id>80cfa80597eb711053f8b5a6f053afb3</sys_id>
+        <sys_created_on>2024-01-06 04:39:53</sys_created_on>
+        <sys_id>e59cceb9976f351053f8b5a6f053af79</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-03 13:58:50</sys_updated_on>
+        <sys_updated_on>2024-01-06 04:39:53</sys_updated_on>
         <value>0</value>
         <variable display_value="Advanced">493d2c1d0a6a803f3217a75738ea3289</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>c8cfa80597eb711053f8b5a6f053afb2</document_key>
+        <document_key>a19cceb9976f351053f8b5a6f053af79</document_key>
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-03 13:58:50</sys_created_on>
-        <sys_id>cccfa80597eb711053f8b5a6f053afb2</sys_id>
+        <sys_created_on>2024-01-06 04:39:53</sys_created_on>
+        <sys_id>259cceb9976f351053f8b5a6f053af79</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-03 13:58:50</sys_updated_on>
+        <sys_updated_on>2024-01-06 04:39:53</sys_updated_on>
         <value>assignment_group=d98b1957979f755053f8b5a6f053af00^EQ</value>
         <variable display_value="Condition">493cba6a0a6a803f07df24b118473551</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>c8cfa80597eb711053f8b5a6f053afb2</document_key>
-        <order>100</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-03 13:58:50</sys_created_on>
-        <sys_id>cccfa80597eb711053f8b5a6f053afb2</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-03 13:58:50</sys_updated_on>
-        <value>assignment_group=d98b1957979f755053f8b5a6f053af00^EQ</value>
-        <variable display_value="Condition">493cba6a0a6a803f07df24b118473551</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>c8cfa80597eb711053f8b5a6f053afb2</document_key>
+        <document_key>a19cceb9976f351053f8b5a6f053af79</document_key>
         <order>200</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-03 13:58:50</sys_created_on>
-        <sys_id>80cfa80597eb711053f8b5a6f053afb3</sys_id>
+        <sys_created_on>2024-01-06 04:39:53</sys_created_on>
+        <sys_id>e59cceb9976f351053f8b5a6f053af79</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-03 13:58:50</sys_updated_on>
+        <sys_updated_on>2024-01-06 04:39:53</sys_updated_on>
         <value>0</value>
         <variable display_value="Advanced">493d2c1d0a6a803f3217a75738ea3289</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>c8cfa80597eb711053f8b5a6f053afb2</document_key>
+        <document_key>a19cceb9976f351053f8b5a6f053af79</document_key>
         <order>300</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-03 13:58:50</sys_created_on>
-        <sys_id>44cfa80597eb711053f8b5a6f053afb3</sys_id>
+        <sys_created_on>2024-01-06 04:39:53</sys_created_on>
+        <sys_id>a99cceb9976f351053f8b5a6f053af79</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-03 13:58:50</sys_updated_on>
+        <sys_updated_on>2024-01-06 04:39:53</sys_updated_on>
         <value>// This script needs to set answer to 'yes' or 'no' to indicate the state of the activity.&#13;
 //&#13;
 // For example,&#13;
@@ -724,7 +1046,7 @@
         <variable display_value="Script">c35e50810a0a0ba96248a709b450fc32</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="If Assignment group is Hardware then it will assign to hardware group members">c8cfa80597eb711053f8b5a6f053afb2</activity>
+        <activity display_value="If Assignment group is Hardware then it will assign to hardware group members">a19cceb9976f351053f8b5a6f053af79</activity>
         <condition>activity.result == 'no'</condition>
         <condition_default display_value="No">c1eff6430a0a0b59000f955abe842c94</condition_default>
         <condition_type>standard</condition_type>
@@ -738,14 +1060,14 @@
         <short_description/>
         <skip_during_generate>true</skip_during_generate>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-03 13:58:50</sys_created_on>
-        <sys_id>c8cfa80597eb711053f8b5a6f053afb3</sys_id>
+        <sys_created_on>2024-01-06 04:39:53</sys_created_on>
+        <sys_id>ad9cceb9976f351053f8b5a6f053af79</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-03 13:58:50</sys_updated_on>
+        <sys_updated_on>2024-01-06 04:39:53</sys_updated_on>
     </wf_condition>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="If Assignment group is Hardware then it will assign to hardware group members">c8cfa80597eb711053f8b5a6f053afb2</activity>
+        <activity display_value="If Assignment group is Hardware then it will assign to hardware group members">a19cceb9976f351053f8b5a6f053af79</activity>
         <condition>activity.result == 'yes'</condition>
         <condition_default display_value="Yes">c1ef63200a0a0b59005ef89bae78feb7</condition_default>
         <condition_type>standard</condition_type>
@@ -759,11 +1081,11 @@
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-03 13:58:50</sys_created_on>
-        <sys_id>4ccfa80597eb711053f8b5a6f053afb3</sys_id>
+        <sys_created_on>2024-01-06 04:39:53</sys_created_on>
+        <sys_id>219cceb9976f351053f8b5a6f053af7a</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-03 13:58:50</sys_updated_on>
+        <sys_updated_on>2024-01-06 04:39:53</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="If">98f621ca0a0a0b5900f7c291f5e45a0e</activity_definition>
@@ -781,58 +1103,58 @@
         <pinned_version/>
         <stage/>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-03 13:58:50</sys_created_on>
-        <sys_id>c0cfac0597eb711053f8b5a6f053af39</sys_id>
+        <sys_created_on>2024-01-06 04:39:53</sys_created_on>
+        <sys_id>699cceb9976f351053f8b5a6f053af77</sys_id>
         <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-04 05:21:27</sys_updated_on>
+        <sys_updated_on>2024-01-06 04:41:44</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="MySmartphone service Workflow">40cfa80597eb711053f8b5a6f053afae</workflow_version>
-        <x>662</x>
-        <y>172</y>
+        <workflow_version display_value="MySmartphone service Workflow">259c0e79976f351053f8b5a6f053af2d</workflow_version>
+        <x>1139</x>
+        <y>211</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=c0cfac0597eb711053f8b5a6f053af39"/>
+    <sys_variable_value action="delete_multiple" query="document_key=699cceb9976f351053f8b5a6f053af77"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>c0cfac0597eb711053f8b5a6f053af39</document_key>
+        <document_key>699cceb9976f351053f8b5a6f053af77</document_key>
         <order>200</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-03 13:58:50</sys_created_on>
-        <sys_id>08cfac0597eb711053f8b5a6f053af39</sys_id>
+        <sys_created_on>2024-01-06 04:39:53</sys_created_on>
+        <sys_id>219cceb9976f351053f8b5a6f053af78</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-03 13:58:50</sys_updated_on>
+        <sys_updated_on>2024-01-06 04:39:53</sys_updated_on>
         <value>0</value>
         <variable display_value="Advanced">493d2c1d0a6a803f3217a75738ea3289</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>c0cfac0597eb711053f8b5a6f053af39</document_key>
+        <document_key>699cceb9976f351053f8b5a6f053af77</document_key>
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-03 13:58:50</sys_created_on>
-        <sys_id>44cfac0597eb711053f8b5a6f053af39</sys_id>
+        <sys_created_on>2024-01-06 04:39:53</sys_created_on>
+        <sys_id>6d9cceb9976f351053f8b5a6f053af77</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-03 13:58:50</sys_updated_on>
+        <sys_updated_on>2024-01-06 04:39:53</sys_updated_on>
         <value>assignment_group=ae5cd9d7979f755053f8b5a6f053af15^EQ</value>
         <variable display_value="Condition">493cba6a0a6a803f07df24b118473551</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>c0cfac0597eb711053f8b5a6f053af39</document_key>
+        <document_key>699cceb9976f351053f8b5a6f053af77</document_key>
         <order>300</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-03 13:58:50</sys_created_on>
-        <sys_id>c8cfac0597eb711053f8b5a6f053af39</sys_id>
+        <sys_created_on>2024-01-06 04:39:53</sys_created_on>
+        <sys_id>e19cceb9976f351053f8b5a6f053af78</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-03 13:58:50</sys_updated_on>
+        <sys_updated_on>2024-01-06 04:39:53</sys_updated_on>
         <value>// This script needs to set answer to 'yes' or 'no' to indicate the state of the activity.&#13;
 //&#13;
 // For example,&#13;
@@ -850,43 +1172,43 @@
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>c0cfac0597eb711053f8b5a6f053af39</document_key>
+        <document_key>699cceb9976f351053f8b5a6f053af77</document_key>
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-03 13:58:50</sys_created_on>
-        <sys_id>44cfac0597eb711053f8b5a6f053af39</sys_id>
+        <sys_created_on>2024-01-06 04:39:53</sys_created_on>
+        <sys_id>6d9cceb9976f351053f8b5a6f053af77</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-03 13:58:50</sys_updated_on>
+        <sys_updated_on>2024-01-06 04:39:53</sys_updated_on>
         <value>assignment_group=ae5cd9d7979f755053f8b5a6f053af15^EQ</value>
         <variable display_value="Condition">493cba6a0a6a803f07df24b118473551</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>c0cfac0597eb711053f8b5a6f053af39</document_key>
+        <document_key>699cceb9976f351053f8b5a6f053af77</document_key>
         <order>200</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-03 13:58:50</sys_created_on>
-        <sys_id>08cfac0597eb711053f8b5a6f053af39</sys_id>
+        <sys_created_on>2024-01-06 04:39:53</sys_created_on>
+        <sys_id>219cceb9976f351053f8b5a6f053af78</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-03 13:58:50</sys_updated_on>
+        <sys_updated_on>2024-01-06 04:39:53</sys_updated_on>
         <value>0</value>
         <variable display_value="Advanced">493d2c1d0a6a803f3217a75738ea3289</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>c0cfac0597eb711053f8b5a6f053af39</document_key>
+        <document_key>699cceb9976f351053f8b5a6f053af77</document_key>
         <order>300</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-03 13:58:50</sys_created_on>
-        <sys_id>c8cfac0597eb711053f8b5a6f053af39</sys_id>
+        <sys_created_on>2024-01-06 04:39:53</sys_created_on>
+        <sys_id>e19cceb9976f351053f8b5a6f053af78</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-03 13:58:50</sys_updated_on>
+        <sys_updated_on>2024-01-06 04:39:53</sys_updated_on>
         <value>// This script needs to set answer to 'yes' or 'no' to indicate the state of the activity.&#13;
 //&#13;
 // For example,&#13;
@@ -903,7 +1225,7 @@
         <variable display_value="Script">c35e50810a0a0ba96248a709b450fc32</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="If Assignment group is Software then it will assign to software group members">c0cfac0597eb711053f8b5a6f053af39</activity>
+        <activity display_value="If Assignment group is Software then it will assign to software group members">699cceb9976f351053f8b5a6f053af77</activity>
         <condition>activity.result == 'no'</condition>
         <condition_default display_value="No">c1eff6430a0a0b59000f955abe842c94</condition_default>
         <condition_type>standard</condition_type>
@@ -917,14 +1239,14 @@
         <short_description/>
         <skip_during_generate>true</skip_during_generate>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-03 13:58:50</sys_created_on>
-        <sys_id>40cfac0597eb711053f8b5a6f053af3a</sys_id>
+        <sys_created_on>2024-01-06 04:39:53</sys_created_on>
+        <sys_id>e99cceb9976f351053f8b5a6f053af78</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-03 13:58:50</sys_updated_on>
+        <sys_updated_on>2024-01-06 04:39:53</sys_updated_on>
     </wf_condition>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="If Assignment group is Software then it will assign to software group members">c0cfac0597eb711053f8b5a6f053af39</activity>
+        <activity display_value="If Assignment group is Software then it will assign to software group members">699cceb9976f351053f8b5a6f053af77</activity>
         <condition>activity.result == 'yes'</condition>
         <condition_default display_value="Yes">c1ef63200a0a0b59005ef89bae78feb7</condition_default>
         <condition_type>standard</condition_type>
@@ -938,11 +1260,121 @@
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-03 13:58:50</sys_created_on>
-        <sys_id>cccfac0597eb711053f8b5a6f053af39</sys_id>
+        <sys_created_on>2024-01-06 04:39:53</sys_created_on>
+        <sys_id>699cceb9976f351053f8b5a6f053af78</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-03 13:58:50</sys_updated_on>
+        <sys_updated_on>2024-01-06 04:39:53</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Wait for condition">d93a02ae0a0a0aa30077abad3fdac035</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>11</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>If State is closed complete then your issue has been resolved.</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-06 04:39:53</sys_created_on>
+        <sys_id>219cceb9976f351053f8b5a6f053af70</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-06 04:41:36</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="MySmartphone service Workflow">259c0e79976f351053f8b5a6f053af2d</workflow_version>
+        <x>1479</x>
+        <y>37</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=219cceb9976f351053f8b5a6f053af70"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>219cceb9976f351053f8b5a6f053af70</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-06 04:39:53</sys_created_on>
+        <sys_id>259cceb9976f351053f8b5a6f053af70</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-06 04:39:53</sys_updated_on>
+        <value>// Set the variable 'answer' to true or false to indicate if the condition has been met or not.&#13;
+answer = true;&#13;
+</value>
+        <variable display_value="Condition script">c35debce0a0a0ba96248a709440cf31a</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>219cceb9976f351053f8b5a6f053af70</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-06 04:39:53</sys_created_on>
+        <sys_id>e59cceb9976f351053f8b5a6f053af70</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-06 04:39:53</sys_updated_on>
+        <value>state=3^EQ</value>
+        <variable display_value="Condition">c35dc4cd0a0a0ba96248a70990c1ac54</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>219cceb9976f351053f8b5a6f053af70</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-06 04:39:53</sys_created_on>
+        <sys_id>e59cceb9976f351053f8b5a6f053af70</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-06 04:39:53</sys_updated_on>
+        <value>state=3^EQ</value>
+        <variable display_value="Condition">c35dc4cd0a0a0ba96248a70990c1ac54</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>219cceb9976f351053f8b5a6f053af70</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-06 04:39:53</sys_created_on>
+        <sys_id>259cceb9976f351053f8b5a6f053af70</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-06 04:39:53</sys_updated_on>
+        <value>// Set the variable 'answer' to true or false to indicate if the condition has been met or not.&#13;
+answer = true;&#13;
+</value>
+        <variable display_value="Condition script">c35debce0a0a0ba96248a709440cf31a</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="If State is closed complete then your issue has been resolved.">219cceb9976f351053f8b5a6f053af70</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-06 04:39:53</sys_created_on>
+        <sys_id>6d9cceb9976f351053f8b5a6f053af70</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-06 04:39:53</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Notification">0a6c97790a0a0b2756919eb960284334</activity_definition>
@@ -960,58 +1392,58 @@
         <pinned_version/>
         <stage/>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-03 13:58:50</sys_created_on>
-        <sys_id>c4cfac0597eb711053f8b5a6f053af37</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_created_on>2024-01-06 04:39:53</sys_created_on>
+        <sys_id>e59cceb9976f351053f8b5a6f053af7b</sys_id>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-04 05:22:29</sys_updated_on>
+        <sys_updated_on>2024-01-06 04:41:22</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="MySmartphone service Workflow">40cfa80597eb711053f8b5a6f053afae</workflow_version>
-        <x>358</x>
-        <y>36</y>
+        <workflow_version display_value="MySmartphone service Workflow">259c0e79976f351053f8b5a6f053af2d</workflow_version>
+        <x>525</x>
+        <y>27</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=c4cfac0597eb711053f8b5a6f053af37"/>
+    <sys_variable_value action="delete_multiple" query="document_key=e59cceb9976f351053f8b5a6f053af7b"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>c4cfac0597eb711053f8b5a6f053af37</document_key>
+        <document_key>e59cceb9976f351053f8b5a6f053af7b</document_key>
         <order>150</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-03 13:58:50</sys_created_on>
-        <sys_id>08cfac0597eb711053f8b5a6f053af38</sys_id>
+        <sys_created_on>2024-01-06 04:39:53</sys_created_on>
+        <sys_id>299cceb9976f351053f8b5a6f053af7c</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-03 13:58:50</sys_updated_on>
+        <sys_updated_on>2024-01-06 04:39:53</sys_updated_on>
         <value>${assignment_group}</value>
         <variable display_value="To (groups)">ae2121c70a0a0b3459708c9a60cd7312</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>c4cfac0597eb711053f8b5a6f053af37</document_key>
+        <document_key>e59cceb9976f351053f8b5a6f053af7b</document_key>
         <order>400</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-03 13:58:50</sys_created_on>
-        <sys_id>0ccfac0597eb711053f8b5a6f053af37</sys_id>
+        <sys_created_on>2024-01-06 04:39:53</sys_created_on>
+        <sys_id>2d9cceb9976f351053f8b5a6f053af7b</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-03 13:58:50</sys_updated_on>
+        <sys_updated_on>2024-01-06 04:39:53</sys_updated_on>
         <value>0</value>
         <variable display_value="Advanced">6d6816cd0a6a803f0853a8df38007572</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>c4cfac0597eb711053f8b5a6f053af37</document_key>
+        <document_key>e59cceb9976f351053f8b5a6f053af7b</document_key>
         <order>300</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-03 13:58:50</sys_created_on>
-        <sys_id>44cfac0597eb711053f8b5a6f053af38</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_created_on>2024-01-06 04:39:53</sys_created_on>
+        <sys_id>659cceb9976f351053f8b5a6f053af7c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-04 05:22:29</sys_updated_on>
+        <sys_updated_on>2024-01-06 04:39:53</sys_updated_on>
         <value>Dear ${assignment_group.manager},&#13;
 &#13;
 This is to inform you that an incident has been assigned to the ${assignment_group} group for further action.&#13;
@@ -1033,100 +1465,100 @@ Assignment group Created: ${assignment_group.sys_created_on}</value>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>c4cfac0597eb711053f8b5a6f053af37</document_key>
+        <document_key>e59cceb9976f351053f8b5a6f053af7b</document_key>
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-03 13:58:50</sys_created_on>
-        <sys_id>48cfac0597eb711053f8b5a6f053af37</sys_id>
+        <sys_created_on>2024-01-06 04:39:53</sys_created_on>
+        <sys_id>699cceb9976f351053f8b5a6f053af7b</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-03 13:58:50</sys_updated_on>
+        <sys_updated_on>2024-01-06 04:39:53</sys_updated_on>
         <value>6816f79cc0a8016401c5a33be04be441,palashkardhekar511@gmail.com,${assigned_to.manager}</value>
         <variable display_value="To">c35daa890a0a0ba96248a709c32994d6</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>c4cfac0597eb711053f8b5a6f053af37</document_key>
+        <document_key>e59cceb9976f351053f8b5a6f053af7b</document_key>
         <order>200</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-03 13:58:50</sys_created_on>
-        <sys_id>80cfac0597eb711053f8b5a6f053af38</sys_id>
+        <sys_created_on>2024-01-06 04:39:53</sys_created_on>
+        <sys_id>a19cceb9976f351053f8b5a6f053af7c</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-03 13:58:50</sys_updated_on>
+        <sys_updated_on>2024-01-06 04:39:53</sys_updated_on>
         <value>Notification of Assigned Incident - ${number}</value>
         <variable display_value="Subject">c35db2180a0a0ba96248a709d1b6df20</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>c4cfac0597eb711053f8b5a6f053af37</document_key>
+        <document_key>e59cceb9976f351053f8b5a6f053af7b</document_key>
         <order>500</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-03 13:58:50</sys_created_on>
-        <sys_id>cccfac0597eb711053f8b5a6f053af37</sys_id>
+        <sys_created_on>2024-01-06 04:39:53</sys_created_on>
+        <sys_id>ed9cceb9976f351053f8b5a6f053af7b</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-03 13:58:50</sys_updated_on>
+        <sys_updated_on>2024-01-06 04:39:53</sys_updated_on>
         <value>// Set the variable 'answer' to a comma-separated list of user or group sys_ids that you want the email sent to.&#13;
 </value>
         <variable display_value="To (script)">c35dae3d0a0a0ba96248a7098ed9b4aa</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>c4cfac0597eb711053f8b5a6f053af37</document_key>
+        <document_key>e59cceb9976f351053f8b5a6f053af7b</document_key>
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-03 13:58:50</sys_created_on>
-        <sys_id>48cfac0597eb711053f8b5a6f053af37</sys_id>
+        <sys_created_on>2024-01-06 04:39:53</sys_created_on>
+        <sys_id>699cceb9976f351053f8b5a6f053af7b</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-03 13:58:50</sys_updated_on>
+        <sys_updated_on>2024-01-06 04:39:53</sys_updated_on>
         <value>6816f79cc0a8016401c5a33be04be441,palashkardhekar511@gmail.com,${assigned_to.manager}</value>
         <variable display_value="To">c35daa890a0a0ba96248a709c32994d6</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>c4cfac0597eb711053f8b5a6f053af37</document_key>
+        <document_key>e59cceb9976f351053f8b5a6f053af7b</document_key>
         <order>150</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-03 13:58:50</sys_created_on>
-        <sys_id>08cfac0597eb711053f8b5a6f053af38</sys_id>
+        <sys_created_on>2024-01-06 04:39:53</sys_created_on>
+        <sys_id>299cceb9976f351053f8b5a6f053af7c</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-03 13:58:50</sys_updated_on>
+        <sys_updated_on>2024-01-06 04:39:53</sys_updated_on>
         <value>${assignment_group}</value>
         <variable display_value="To (groups)">ae2121c70a0a0b3459708c9a60cd7312</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>c4cfac0597eb711053f8b5a6f053af37</document_key>
+        <document_key>e59cceb9976f351053f8b5a6f053af7b</document_key>
         <order>200</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-03 13:58:50</sys_created_on>
-        <sys_id>80cfac0597eb711053f8b5a6f053af38</sys_id>
+        <sys_created_on>2024-01-06 04:39:53</sys_created_on>
+        <sys_id>a19cceb9976f351053f8b5a6f053af7c</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-03 13:58:50</sys_updated_on>
+        <sys_updated_on>2024-01-06 04:39:53</sys_updated_on>
         <value>Notification of Assigned Incident - ${number}</value>
         <variable display_value="Subject">c35db2180a0a0ba96248a709d1b6df20</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>c4cfac0597eb711053f8b5a6f053af37</document_key>
+        <document_key>e59cceb9976f351053f8b5a6f053af7b</document_key>
         <order>300</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-03 13:58:50</sys_created_on>
-        <sys_id>44cfac0597eb711053f8b5a6f053af38</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_created_on>2024-01-06 04:39:53</sys_created_on>
+        <sys_id>659cceb9976f351053f8b5a6f053af7c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-04 05:22:29</sys_updated_on>
+        <sys_updated_on>2024-01-06 04:39:53</sys_updated_on>
         <value>Dear ${assignment_group.manager},&#13;
 &#13;
 This is to inform you that an incident has been assigned to the ${assignment_group} group for further action.&#13;
@@ -1148,35 +1580,35 @@ Assignment group Created: ${assignment_group.sys_created_on}</value>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>c4cfac0597eb711053f8b5a6f053af37</document_key>
+        <document_key>e59cceb9976f351053f8b5a6f053af7b</document_key>
         <order>400</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-03 13:58:50</sys_created_on>
-        <sys_id>0ccfac0597eb711053f8b5a6f053af37</sys_id>
+        <sys_created_on>2024-01-06 04:39:53</sys_created_on>
+        <sys_id>2d9cceb9976f351053f8b5a6f053af7b</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-03 13:58:50</sys_updated_on>
+        <sys_updated_on>2024-01-06 04:39:53</sys_updated_on>
         <value>0</value>
         <variable display_value="Advanced">6d6816cd0a6a803f0853a8df38007572</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>c4cfac0597eb711053f8b5a6f053af37</document_key>
+        <document_key>e59cceb9976f351053f8b5a6f053af7b</document_key>
         <order>500</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-03 13:58:50</sys_created_on>
-        <sys_id>cccfac0597eb711053f8b5a6f053af37</sys_id>
+        <sys_created_on>2024-01-06 04:39:53</sys_created_on>
+        <sys_id>ed9cceb9976f351053f8b5a6f053af7b</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-03 13:58:50</sys_updated_on>
+        <sys_updated_on>2024-01-06 04:39:53</sys_updated_on>
         <value>// Set the variable 'answer' to a comma-separated list of user or group sys_ids that you want the email sent to.&#13;
 </value>
         <variable display_value="To (script)">c35dae3d0a0a0ba96248a7098ed9b4aa</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Incident has been assigned to Technicial group head">c4cfac0597eb711053f8b5a6f053af37</activity>
+        <activity display_value="Incident has been assigned to Technicial group head">e59cceb9976f351053f8b5a6f053af7b</activity>
         <condition>true</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -1190,11 +1622,11 @@ Assignment group Created: ${assignment_group.sys_created_on}</value>
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-03 13:58:50</sys_created_on>
-        <sys_id>0ccfac0597eb711053f8b5a6f053af38</sys_id>
+        <sys_created_on>2024-01-06 04:39:53</sys_created_on>
+        <sys_id>2d9cceb9976f351053f8b5a6f053af7c</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-03 13:58:50</sys_updated_on>
+        <sys_updated_on>2024-01-06 04:39:53</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Notification">0a6c97790a0a0b2756919eb960284334</activity_definition>
@@ -1212,30 +1644,87 @@ Assignment group Created: ${assignment_group.sys_created_on}</value>
         <pinned_version/>
         <stage/>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-03 13:58:50</sys_created_on>
-        <sys_id>84cfac0597eb711053f8b5a6f053af3c</sys_id>
+        <sys_created_on>2024-01-06 04:39:53</sys_created_on>
+        <sys_id>219cceb9976f351053f8b5a6f053af73</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-03 13:58:50</sys_updated_on>
+        <sys_updated_on>2024-01-06 04:39:53</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="MySmartphone service Workflow">40cfa80597eb711053f8b5a6f053afae</workflow_version>
-        <x>12</x>
-        <y>135</y>
+        <workflow_version display_value="MySmartphone service Workflow">259c0e79976f351053f8b5a6f053af2d</workflow_version>
+        <x>136</x>
+        <y>21</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=84cfac0597eb711053f8b5a6f053af3c"/>
+    <sys_variable_value action="delete_multiple" query="document_key=219cceb9976f351053f8b5a6f053af73"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>84cfac0597eb711053f8b5a6f053af3c</document_key>
+        <document_key>219cceb9976f351053f8b5a6f053af73</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-06 04:39:53</sys_created_on>
+        <sys_id>299cceb9976f351053f8b5a6f053af73</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-06 04:39:53</sys_updated_on>
+        <value>// Set the variable 'answer' to a comma-separated list of user or group sys_ids that you want the email sent to.&#13;
+</value>
+        <variable display_value="To (script)">c35dae3d0a0a0ba96248a7098ed9b4aa</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>219cceb9976f351053f8b5a6f053af73</document_key>
+        <order>150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-06 04:39:53</sys_created_on>
+        <sys_id>619cceb9976f351053f8b5a6f053af74</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-06 04:39:53</sys_updated_on>
+        <value/>
+        <variable display_value="To (groups)">ae2121c70a0a0b3459708c9a60cd7312</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>219cceb9976f351053f8b5a6f053af73</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-06 04:39:53</sys_created_on>
+        <sys_id>659cceb9976f351053f8b5a6f053af73</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-06 04:39:53</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Advanced">6d6816cd0a6a803f0853a8df38007572</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>219cceb9976f351053f8b5a6f053af73</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-06 04:39:53</sys_created_on>
+        <sys_id>a19cceb9976f351053f8b5a6f053af73</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-06 04:39:53</sys_updated_on>
+        <value>6816f79cc0a8016401c5a33be04be441,${u_customer_name_1},palashkardhekar511@gmail.com</value>
+        <variable display_value="To">c35daa890a0a0ba96248a709c32994d6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>219cceb9976f351053f8b5a6f053af73</document_key>
         <order>300</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-03 13:58:50</sys_created_on>
-        <sys_id>04cfac0597eb711053f8b5a6f053af3d</sys_id>
+        <sys_created_on>2024-01-06 04:39:53</sys_created_on>
+        <sys_id>ad9cceb9976f351053f8b5a6f053af73</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-03 13:58:50</sys_updated_on>
+        <sys_updated_on>2024-01-06 04:39:53</sys_updated_on>
         <value>Dear ${u_customer_name_1},&#13;
 &#13;
 We acknowledge the receipt of your phone at our service center. An incident has been created to track the service request details.&#13;
@@ -1259,128 +1748,71 @@ MobileTech Solutions.&#13;
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>84cfac0597eb711053f8b5a6f053af3c</document_key>
-        <order>100</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-03 13:58:50</sys_created_on>
-        <sys_id>08cfac0597eb711053f8b5a6f053af3c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-03 13:58:50</sys_updated_on>
-        <value>6816f79cc0a8016401c5a33be04be441,${u_customer_name_1},palashkardhekar511@gmail.com</value>
-        <variable display_value="To">c35daa890a0a0ba96248a709c32994d6</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>84cfac0597eb711053f8b5a6f053af3c</document_key>
+        <document_key>219cceb9976f351053f8b5a6f053af73</document_key>
         <order>200</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-03 13:58:50</sys_created_on>
-        <sys_id>40cfac0597eb711053f8b5a6f053af3d</sys_id>
+        <sys_created_on>2024-01-06 04:39:53</sys_created_on>
+        <sys_id>e99cceb9976f351053f8b5a6f053af73</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-03 13:58:50</sys_updated_on>
+        <sys_updated_on>2024-01-06 04:39:53</sys_updated_on>
         <value>Phone Service Request Acknowledgement - Incident Number: ${number}] </value>
         <variable display_value="Subject">c35db2180a0a0ba96248a709d1b6df20</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>84cfac0597eb711053f8b5a6f053af3c</document_key>
-        <order>500</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-03 13:58:50</sys_created_on>
-        <sys_id>8ccfac0597eb711053f8b5a6f053af3c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-03 13:58:50</sys_updated_on>
-        <value>// Set the variable 'answer' to a comma-separated list of user or group sys_ids that you want the email sent to.&#13;
-</value>
-        <variable display_value="To (script)">c35dae3d0a0a0ba96248a7098ed9b4aa</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>84cfac0597eb711053f8b5a6f053af3c</document_key>
-        <order>150</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-03 13:58:50</sys_created_on>
-        <sys_id>c4cfac0597eb711053f8b5a6f053af3d</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-03 13:58:50</sys_updated_on>
-        <value/>
-        <variable display_value="To (groups)">ae2121c70a0a0b3459708c9a60cd7312</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>84cfac0597eb711053f8b5a6f053af3c</document_key>
-        <order>400</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-03 13:58:50</sys_created_on>
-        <sys_id>c8cfac0597eb711053f8b5a6f053af3c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-03 13:58:50</sys_updated_on>
-        <value>0</value>
-        <variable display_value="Advanced">6d6816cd0a6a803f0853a8df38007572</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>84cfac0597eb711053f8b5a6f053af3c</document_key>
+        <document_key>219cceb9976f351053f8b5a6f053af73</document_key>
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-03 13:58:50</sys_created_on>
-        <sys_id>08cfac0597eb711053f8b5a6f053af3c</sys_id>
+        <sys_created_on>2024-01-06 04:39:53</sys_created_on>
+        <sys_id>a19cceb9976f351053f8b5a6f053af73</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-03 13:58:50</sys_updated_on>
+        <sys_updated_on>2024-01-06 04:39:53</sys_updated_on>
         <value>6816f79cc0a8016401c5a33be04be441,${u_customer_name_1},palashkardhekar511@gmail.com</value>
         <variable display_value="To">c35daa890a0a0ba96248a709c32994d6</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>84cfac0597eb711053f8b5a6f053af3c</document_key>
+        <document_key>219cceb9976f351053f8b5a6f053af73</document_key>
         <order>150</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-03 13:58:50</sys_created_on>
-        <sys_id>c4cfac0597eb711053f8b5a6f053af3d</sys_id>
+        <sys_created_on>2024-01-06 04:39:53</sys_created_on>
+        <sys_id>619cceb9976f351053f8b5a6f053af74</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-03 13:58:50</sys_updated_on>
+        <sys_updated_on>2024-01-06 04:39:53</sys_updated_on>
         <value/>
         <variable display_value="To (groups)">ae2121c70a0a0b3459708c9a60cd7312</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>84cfac0597eb711053f8b5a6f053af3c</document_key>
+        <document_key>219cceb9976f351053f8b5a6f053af73</document_key>
         <order>200</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-03 13:58:50</sys_created_on>
-        <sys_id>40cfac0597eb711053f8b5a6f053af3d</sys_id>
+        <sys_created_on>2024-01-06 04:39:53</sys_created_on>
+        <sys_id>e99cceb9976f351053f8b5a6f053af73</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-03 13:58:50</sys_updated_on>
+        <sys_updated_on>2024-01-06 04:39:53</sys_updated_on>
         <value>Phone Service Request Acknowledgement - Incident Number: ${number}] </value>
         <variable display_value="Subject">c35db2180a0a0ba96248a709d1b6df20</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>84cfac0597eb711053f8b5a6f053af3c</document_key>
+        <document_key>219cceb9976f351053f8b5a6f053af73</document_key>
         <order>300</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-03 13:58:50</sys_created_on>
-        <sys_id>04cfac0597eb711053f8b5a6f053af3d</sys_id>
+        <sys_created_on>2024-01-06 04:39:53</sys_created_on>
+        <sys_id>ad9cceb9976f351053f8b5a6f053af73</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-03 13:58:50</sys_updated_on>
+        <sys_updated_on>2024-01-06 04:39:53</sys_updated_on>
         <value>Dear ${u_customer_name_1},&#13;
 &#13;
 We acknowledge the receipt of your phone at our service center. An incident has been created to track the service request details.&#13;
@@ -1404,35 +1836,35 @@ MobileTech Solutions.&#13;
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>84cfac0597eb711053f8b5a6f053af3c</document_key>
+        <document_key>219cceb9976f351053f8b5a6f053af73</document_key>
         <order>400</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-03 13:58:50</sys_created_on>
-        <sys_id>c8cfac0597eb711053f8b5a6f053af3c</sys_id>
+        <sys_created_on>2024-01-06 04:39:53</sys_created_on>
+        <sys_id>659cceb9976f351053f8b5a6f053af73</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-03 13:58:50</sys_updated_on>
+        <sys_updated_on>2024-01-06 04:39:53</sys_updated_on>
         <value>0</value>
         <variable display_value="Advanced">6d6816cd0a6a803f0853a8df38007572</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>84cfac0597eb711053f8b5a6f053af3c</document_key>
+        <document_key>219cceb9976f351053f8b5a6f053af73</document_key>
         <order>500</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-03 13:58:50</sys_created_on>
-        <sys_id>8ccfac0597eb711053f8b5a6f053af3c</sys_id>
+        <sys_created_on>2024-01-06 04:39:53</sys_created_on>
+        <sys_id>299cceb9976f351053f8b5a6f053af73</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-03 13:58:50</sys_updated_on>
+        <sys_updated_on>2024-01-06 04:39:53</sys_updated_on>
         <value>// Set the variable 'answer' to a comma-separated list of user or group sys_ids that you want the email sent to.&#13;
 </value>
         <variable display_value="To (script)">c35dae3d0a0a0ba96248a7098ed9b4aa</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Send notification to customer that issue has been raised.">84cfac0597eb711053f8b5a6f053af3c</activity>
+        <activity display_value="Send notification to customer that issue has been raised.">219cceb9976f351053f8b5a6f053af73</activity>
         <condition>true</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -1446,121 +1878,11 @@ MobileTech Solutions.&#13;
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-03 13:58:50</sys_created_on>
-        <sys_id>c8cfac0597eb711053f8b5a6f053af3d</sys_id>
+        <sys_created_on>2024-01-06 04:39:53</sys_created_on>
+        <sys_id>659cceb9976f351053f8b5a6f053af74</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-03 13:58:50</sys_updated_on>
-    </wf_condition>
-    <wf_activity action="INSERT_OR_UPDATE">
-        <activity_definition display_value="Wait for condition">d93a02ae0a0a0aa30077abad3fdac035</activity_definition>
-        <activity_definition_updated>false</activity_definition_updated>
-        <databus_lookup_id>4</databus_lookup_id>
-        <height/>
-        <input>{}</input>
-        <is_parent>false</is_parent>
-        <name>Wait for incident to get assigned to a perticular group or group member.</name>
-        <new_activity_definition/>
-        <notes/>
-        <out_of_date>false</out_of_date>
-        <parent/>
-        <pinned>false</pinned>
-        <pinned_version/>
-        <stage/>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-03 13:58:50</sys_created_on>
-        <sys_id>c8cfa80597eb711053f8b5a6f053afb6</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-03 13:58:50</sys_updated_on>
-        <timeout>1970-01-01 00:00:00</timeout>
-        <vars/>
-        <width/>
-        <workflow_version display_value="MySmartphone service Workflow">40cfa80597eb711053f8b5a6f053afae</workflow_version>
-        <x>156</x>
-        <y>19</y>
-    </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=c8cfa80597eb711053f8b5a6f053afb6"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>c8cfa80597eb711053f8b5a6f053afb6</document_key>
-        <order>1</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-03 13:58:50</sys_created_on>
-        <sys_id>80cfa80597eb711053f8b5a6f053afb7</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-03 13:58:50</sys_updated_on>
-        <value>assignment_group=f82c47709767711053f8b5a6f053af18^device_problemINhardware,software^EQ</value>
-        <variable display_value="Condition">c35dc4cd0a0a0ba96248a70990c1ac54</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>c8cfa80597eb711053f8b5a6f053afb6</document_key>
-        <order>2</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-03 13:58:50</sys_created_on>
-        <sys_id>cccfa80597eb711053f8b5a6f053afb6</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-03 13:58:50</sys_updated_on>
-        <value>// Set the variable 'answer' to true or false to indicate if the condition has been met or not.&#13;
-answer = true;&#13;
-</value>
-        <variable display_value="Condition script">c35debce0a0a0ba96248a709440cf31a</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>c8cfa80597eb711053f8b5a6f053afb6</document_key>
-        <order>1</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-03 13:58:50</sys_created_on>
-        <sys_id>80cfa80597eb711053f8b5a6f053afb7</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-03 13:58:50</sys_updated_on>
-        <value>assignment_group=f82c47709767711053f8b5a6f053af18^device_problemINhardware,software^EQ</value>
-        <variable display_value="Condition">c35dc4cd0a0a0ba96248a70990c1ac54</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>c8cfa80597eb711053f8b5a6f053afb6</document_key>
-        <order>2</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-03 13:58:50</sys_created_on>
-        <sys_id>cccfa80597eb711053f8b5a6f053afb6</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-03 13:58:50</sys_updated_on>
-        <value>// Set the variable 'answer' to true or false to indicate if the condition has been met or not.&#13;
-answer = true;&#13;
-</value>
-        <variable display_value="Condition script">c35debce0a0a0ba96248a709440cf31a</variable>
-    </sys_variable_value>
-    <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Wait for incident to get assigned to a perticular group or group member.">c8cfa80597eb711053f8b5a6f053afb6</activity>
-        <condition>true</condition>
-        <condition_default/>
-        <condition_type>standard</condition_type>
-        <else_flag>false</else_flag>
-        <error>false</error>
-        <event>false</event>
-        <event_name/>
-        <is_positive>true</is_positive>
-        <name>Always</name>
-        <order>0</order>
-        <short_description/>
-        <skip_during_generate>false</skip_during_generate>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-03 13:58:50</sys_created_on>
-        <sys_id>08cfa80597eb711053f8b5a6f053afb7</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-03 13:58:50</sys_updated_on>
+        <sys_updated_on>2024-01-06 04:39:53</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Wait for condition">d93a02ae0a0a0aa30077abad3fdac035</activity_definition>
@@ -1569,7 +1891,7 @@ answer = true;&#13;
         <height/>
         <input>{}</input>
         <is_parent>false</is_parent>
-        <name>Wait for Technical head to assign incident to perticular group</name>
+        <name>Wait for Admin to assign incident to perticular group</name>
         <new_activity_definition/>
         <notes/>
         <out_of_date>false</out_of_date>
@@ -1578,44 +1900,44 @@ answer = true;&#13;
         <pinned_version/>
         <stage/>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-03 13:58:50</sys_created_on>
-        <sys_id>08cfac0597eb711053f8b5a6f053af3a</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_created_on>2024-01-06 04:39:53</sys_created_on>
+        <sys_id>e59cceb9976f351053f8b5a6f053af7a</sys_id>
+        <sys_mod_count>5</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-04 05:21:25</sys_updated_on>
+        <sys_updated_on>2024-01-06 04:41:25</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="MySmartphone service Workflow">40cfa80597eb711053f8b5a6f053afae</workflow_version>
-        <x>383</x>
-        <y>176</y>
+        <workflow_version display_value="MySmartphone service Workflow">259c0e79976f351053f8b5a6f053af2d</workflow_version>
+        <x>733</x>
+        <y>27</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=08cfac0597eb711053f8b5a6f053af3a"/>
+    <sys_variable_value action="delete_multiple" query="document_key=e59cceb9976f351053f8b5a6f053af7a"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>08cfac0597eb711053f8b5a6f053af3a</document_key>
+        <document_key>e59cceb9976f351053f8b5a6f053af7a</document_key>
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-03 13:58:50</sys_created_on>
-        <sys_id>4ccfac0597eb711053f8b5a6f053af3a</sys_id>
+        <sys_created_on>2024-01-06 04:39:53</sys_created_on>
+        <sys_id>2d9cceb9976f351053f8b5a6f053af7a</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-03 13:58:50</sys_updated_on>
+        <sys_updated_on>2024-01-06 04:39:53</sys_updated_on>
         <value>assignment_group=d98b1957979f755053f8b5a6f053af00^ORassignment_group=ae5cd9d7979f755053f8b5a6f053af15^device_problemINhardware,software^EQ</value>
         <variable display_value="Condition">c35dc4cd0a0a0ba96248a70990c1ac54</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>08cfac0597eb711053f8b5a6f053af3a</document_key>
+        <document_key>e59cceb9976f351053f8b5a6f053af7a</document_key>
         <order>2</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-03 13:58:50</sys_created_on>
-        <sys_id>88cfac0597eb711053f8b5a6f053af3a</sys_id>
+        <sys_created_on>2024-01-06 04:39:53</sys_created_on>
+        <sys_id>699cceb9976f351053f8b5a6f053af7a</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-03 13:58:50</sys_updated_on>
+        <sys_updated_on>2024-01-06 04:39:53</sys_updated_on>
         <value>// Set the variable 'answer' to true or false to indicate if the condition has been met or not.&#13;
 answer = true;&#13;
 </value>
@@ -1623,36 +1945,36 @@ answer = true;&#13;
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>08cfac0597eb711053f8b5a6f053af3a</document_key>
+        <document_key>e59cceb9976f351053f8b5a6f053af7a</document_key>
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-03 13:58:50</sys_created_on>
-        <sys_id>4ccfac0597eb711053f8b5a6f053af3a</sys_id>
+        <sys_created_on>2024-01-06 04:39:53</sys_created_on>
+        <sys_id>2d9cceb9976f351053f8b5a6f053af7a</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-03 13:58:50</sys_updated_on>
+        <sys_updated_on>2024-01-06 04:39:53</sys_updated_on>
         <value>assignment_group=d98b1957979f755053f8b5a6f053af00^ORassignment_group=ae5cd9d7979f755053f8b5a6f053af15^device_problemINhardware,software^EQ</value>
         <variable display_value="Condition">c35dc4cd0a0a0ba96248a70990c1ac54</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>08cfac0597eb711053f8b5a6f053af3a</document_key>
+        <document_key>e59cceb9976f351053f8b5a6f053af7a</document_key>
         <order>2</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-03 13:58:50</sys_created_on>
-        <sys_id>88cfac0597eb711053f8b5a6f053af3a</sys_id>
+        <sys_created_on>2024-01-06 04:39:53</sys_created_on>
+        <sys_id>699cceb9976f351053f8b5a6f053af7a</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-03 13:58:50</sys_updated_on>
+        <sys_updated_on>2024-01-06 04:39:53</sys_updated_on>
         <value>// Set the variable 'answer' to true or false to indicate if the condition has been met or not.&#13;
 answer = true;&#13;
 </value>
         <variable display_value="Condition script">c35debce0a0a0ba96248a709440cf31a</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Wait for Technical head to assign incident to perticular group">08cfac0597eb711053f8b5a6f053af3a</activity>
+        <activity display_value="Wait for Admin to assign incident to perticular group">e59cceb9976f351053f8b5a6f053af7a</activity>
         <condition>true</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -1666,146 +1988,267 @@ answer = true;&#13;
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-03 13:58:50</sys_created_on>
-        <sys_id>40cfac0597eb711053f8b5a6f053af3b</sys_id>
+        <sys_created_on>2024-01-06 04:39:53</sys_created_on>
+        <sys_id>219cceb9976f351053f8b5a6f053af7b</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-03 13:58:50</sys_updated_on>
+        <sys_updated_on>2024-01-06 04:39:53</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Wait for condition">d93a02ae0a0a0aa30077abad3fdac035</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>4</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Wait for incident to get assigned to a technicial group.</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-06 04:39:53</sys_created_on>
+        <sys_id>2d9cceb9976f351053f8b5a6f053af74</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-06 04:41:20</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="MySmartphone service Workflow">259c0e79976f351053f8b5a6f053af2d</workflow_version>
+        <x>329</x>
+        <y>27</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=2d9cceb9976f351053f8b5a6f053af74"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>2d9cceb9976f351053f8b5a6f053af74</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-06 04:39:53</sys_created_on>
+        <sys_id>619cceb9976f351053f8b5a6f053af75</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-06 04:39:53</sys_updated_on>
+        <value>assignment_group=f82c47709767711053f8b5a6f053af18^device_problemINhardware,software^EQ</value>
+        <variable display_value="Condition">c35dc4cd0a0a0ba96248a70990c1ac54</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>2d9cceb9976f351053f8b5a6f053af74</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-06 04:39:53</sys_created_on>
+        <sys_id>ad9cceb9976f351053f8b5a6f053af74</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-06 04:39:53</sys_updated_on>
+        <value>// Set the variable 'answer' to true or false to indicate if the condition has been met or not.&#13;
+answer = true;&#13;
+</value>
+        <variable display_value="Condition script">c35debce0a0a0ba96248a709440cf31a</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>2d9cceb9976f351053f8b5a6f053af74</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-06 04:39:53</sys_created_on>
+        <sys_id>619cceb9976f351053f8b5a6f053af75</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-06 04:39:53</sys_updated_on>
+        <value>assignment_group=f82c47709767711053f8b5a6f053af18^device_problemINhardware,software^EQ</value>
+        <variable display_value="Condition">c35dc4cd0a0a0ba96248a70990c1ac54</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>2d9cceb9976f351053f8b5a6f053af74</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-06 04:39:53</sys_created_on>
+        <sys_id>ad9cceb9976f351053f8b5a6f053af74</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-06 04:39:53</sys_updated_on>
+        <value>// Set the variable 'answer' to true or false to indicate if the condition has been met or not.&#13;
+answer = true;&#13;
+</value>
+        <variable display_value="Condition script">c35debce0a0a0ba96248a709440cf31a</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Wait for incident to get assigned to a technicial group.">2d9cceb9976f351053f8b5a6f053af74</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-06 04:39:53</sys_created_on>
+        <sys_id>659cceb9976f351053f8b5a6f053af75</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-06 04:39:53</sys_updated_on>
     </wf_condition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">48cfa80597eb711053f8b5a6f053afb5</condition>
-        <from display_value="Assign Incident to Software Department">04cfa80597eb711053f8b5a6f053afb4</from>
+        <condition display_value="No">ad9cceb9976f351053f8b5a6f053af79</condition>
+        <from display_value="If Assignment group is Hardware then it will assign to hardware group members">a19cceb9976f351053f8b5a6f053af79</from>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-03 13:58:50</sys_created_on>
-        <sys_id>00cfac0597eb711053f8b5a6f053af40</sys_id>
+        <sys_created_on>2024-01-06 04:39:53</sys_created_on>
+        <sys_id>219cceb9976f351053f8b5a6f053af7f</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-03 13:58:50</sys_updated_on>
-        <to display_value="End">cccfa80597eb711053f8b5a6f053afb5</to>
+        <sys_updated_on>2024-01-06 04:39:53</sys_updated_on>
+        <to display_value="If Assignment group is Software then it will assign to software group members">699cceb9976f351053f8b5a6f053af77</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">40cfa80597eb711053f8b5a6f053afb2</condition>
-        <from display_value="Assign Incident to Hardware Department">40cfa80597eb711053f8b5a6f053afb0</from>
+        <condition display_value="Always">619cceb9976f351053f8b5a6f053af77</condition>
+        <from display_value="Final Bill Generation">2d9cceb9976f351053f8b5a6f053af75</from>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-03 13:58:50</sys_created_on>
-        <sys_id>08cfac0597eb711053f8b5a6f053af3f</sys_id>
+        <sys_created_on>2024-01-06 04:39:53</sys_created_on>
+        <sys_id>299cceb9976f351053f8b5a6f053af80</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-03 13:58:50</sys_updated_on>
-        <to display_value="End">cccfa80597eb711053f8b5a6f053afb5</to>
+        <sys_updated_on>2024-01-06 04:39:53</sys_updated_on>
+        <to display_value="End">e19cceb9976f351053f8b5a6f053af7d</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">c8cfac0597eb711053f8b5a6f053af3d</condition>
-        <from display_value="Send notification to customer that issue has been raised.">84cfac0597eb711053f8b5a6f053af3c</from>
+        <condition display_value="Always">2d9cceb9976f351053f8b5a6f053af7c</condition>
+        <from display_value="Incident has been assigned to Technicial group head">e59cceb9976f351053f8b5a6f053af7b</from>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-03 13:58:50</sys_created_on>
-        <sys_id>40cfac0597eb711053f8b5a6f053af41</sys_id>
+        <sys_created_on>2024-01-06 04:39:53</sys_created_on>
+        <sys_id>619cceb9976f351053f8b5a6f053af80</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-03 13:58:50</sys_updated_on>
-        <to display_value="Wait for incident to get assigned to a perticular group or group member.">c8cfa80597eb711053f8b5a6f053afb6</to>
+        <sys_updated_on>2024-01-06 04:39:53</sys_updated_on>
+        <to display_value="Wait for Admin to assign incident to perticular group">e59cceb9976f351053f8b5a6f053af7a</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">0ccfac0597eb711053f8b5a6f053af38</condition>
-        <from display_value="Incident has been assigned to Technicial group head">c4cfac0597eb711053f8b5a6f053af37</from>
+        <condition display_value="Always">699cceb9976f351053f8b5a6f053af72</condition>
+        <from display_value="Assign Incident to Hardware Department">259cceb9976f351053f8b5a6f053af71</from>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-03 13:58:50</sys_created_on>
-        <sys_id>44cfac0597eb711053f8b5a6f053af3f</sys_id>
+        <sys_created_on>2024-01-06 04:39:53</sys_created_on>
+        <sys_id>659cceb9976f351053f8b5a6f053af80</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-03 13:58:50</sys_updated_on>
-        <to display_value="Wait for Technical head to assign incident to perticular group">08cfac0597eb711053f8b5a6f053af3a</to>
+        <sys_updated_on>2024-01-06 04:39:53</sys_updated_on>
+        <to display_value="If State is closed complete then your issue has been resolved.">219cceb9976f351053f8b5a6f053af70</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="No">40cfac0597eb711053f8b5a6f053af3a</condition>
-        <from display_value="If Assignment group is Software then it will assign to software group members">c0cfac0597eb711053f8b5a6f053af39</from>
+        <condition display_value="Always">299cceb9976f351053f8b5a6f053af6f</condition>
+        <from display_value="Assign Incident to Software Department">a99cceb9976f351053f8b5a6f053af6d</from>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-03 13:58:50</sys_created_on>
-        <sys_id>44cfac0597eb711053f8b5a6f053af40</sys_id>
+        <sys_created_on>2024-01-06 04:39:53</sys_created_on>
+        <sys_id>699cceb9976f351053f8b5a6f053af7f</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-03 13:58:50</sys_updated_on>
-        <to display_value="End">cccfa80597eb711053f8b5a6f053afb5</to>
+        <sys_updated_on>2024-01-06 04:39:53</sys_updated_on>
+        <to display_value="If State is closed complete then your issue has been resolved.">219cceb9976f351053f8b5a6f053af70</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">40cfac0597eb711053f8b5a6f053af3b</condition>
-        <from display_value="Wait for Technical head to assign incident to perticular group">08cfac0597eb711053f8b5a6f053af3a</from>
+        <condition display_value="Always">219cceb9976f351053f8b5a6f053af7b</condition>
+        <from display_value="Wait for Admin to assign incident to perticular group">e59cceb9976f351053f8b5a6f053af7a</from>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-03 13:58:50</sys_created_on>
-        <sys_id>4ccfac0597eb711053f8b5a6f053af3f</sys_id>
+        <sys_created_on>2024-01-06 04:39:53</sys_created_on>
+        <sys_id>a59cceb9976f351053f8b5a6f053af7f</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-03 13:58:50</sys_updated_on>
-        <to display_value="If Assignment group is Hardware then it will assign to hardware group members">c8cfa80597eb711053f8b5a6f053afb2</to>
+        <sys_updated_on>2024-01-06 04:39:53</sys_updated_on>
+        <to display_value="If Assignment group is Hardware then it will assign to hardware group members">a19cceb9976f351053f8b5a6f053af79</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">cccfac0597eb711053f8b5a6f053af3b</condition>
-        <from display_value="Begin">08cfac0597eb711053f8b5a6f053af3b</from>
+        <condition display_value="Yes">219cceb9976f351053f8b5a6f053af7a</condition>
+        <from display_value="If Assignment group is Hardware then it will assign to hardware group members">a19cceb9976f351053f8b5a6f053af79</from>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-03 13:58:50</sys_created_on>
-        <sys_id>80cfac0597eb711053f8b5a6f053af3f</sys_id>
+        <sys_created_on>2024-01-06 04:39:53</sys_created_on>
+        <sys_id>ad9cceb9976f351053f8b5a6f053af7e</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-03 13:58:50</sys_updated_on>
-        <to display_value="Send notification to customer that issue has been raised.">84cfac0597eb711053f8b5a6f053af3c</to>
+        <sys_updated_on>2024-01-06 04:39:53</sys_updated_on>
+        <to display_value="Assign Incident to Hardware Department">259cceb9976f351053f8b5a6f053af71</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">08cfa80597eb711053f8b5a6f053afb7</condition>
-        <from display_value="Wait for incident to get assigned to a perticular group or group member.">c8cfa80597eb711053f8b5a6f053afb6</from>
+        <condition display_value="Always">659cceb9976f351053f8b5a6f053af74</condition>
+        <from display_value="Send notification to customer that issue has been raised.">219cceb9976f351053f8b5a6f053af73</from>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-03 13:58:50</sys_created_on>
-        <sys_id>8ccfac0597eb711053f8b5a6f053af40</sys_id>
+        <sys_created_on>2024-01-06 04:39:53</sys_created_on>
+        <sys_id>ad9cceb9976f351053f8b5a6f053af7f</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-03 13:58:50</sys_updated_on>
-        <to display_value="Incident has been assigned to Technicial group head">c4cfac0597eb711053f8b5a6f053af37</to>
+        <sys_updated_on>2024-01-06 04:39:53</sys_updated_on>
+        <to display_value="Wait for incident to get assigned to a technicial group.">2d9cceb9976f351053f8b5a6f053af74</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="No">c8cfa80597eb711053f8b5a6f053afb3</condition>
-        <from display_value="If Assignment group is Hardware then it will assign to hardware group members">c8cfa80597eb711053f8b5a6f053afb2</from>
+        <condition display_value="Yes">699cceb9976f351053f8b5a6f053af78</condition>
+        <from display_value="If Assignment group is Software then it will assign to software group members">699cceb9976f351053f8b5a6f053af77</from>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-04 05:20:52</sys_created_on>
-        <sys_id>9ac2881597e7b11053f8b5a6f053af17</sys_id>
+        <sys_created_on>2024-01-06 04:39:53</sys_created_on>
+        <sys_id>ad9cceb9976f351053f8b5a6f053af80</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-04 05:20:52</sys_updated_on>
-        <to display_value="If Assignment group is Software then it will assign to software group members">c0cfac0597eb711053f8b5a6f053af39</to>
+        <sys_updated_on>2024-01-06 04:39:53</sys_updated_on>
+        <to display_value="Assign Incident to Software Department">a99cceb9976f351053f8b5a6f053af6d</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Yes">cccfac0597eb711053f8b5a6f053af39</condition>
-        <from display_value="If Assignment group is Software then it will assign to software group members">c0cfac0597eb711053f8b5a6f053af39</from>
+        <condition display_value="Always">6d9cceb9976f351053f8b5a6f053af70</condition>
+        <from display_value="If State is closed complete then your issue has been resolved.">219cceb9976f351053f8b5a6f053af70</from>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-03 13:58:50</sys_created_on>
-        <sys_id>c0cfac0597eb711053f8b5a6f053af40</sys_id>
+        <sys_created_on>2024-01-06 04:39:53</sys_created_on>
+        <sys_id>e19cceb9976f351053f8b5a6f053af7f</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-03 13:58:50</sys_updated_on>
-        <to display_value="Assign Incident to Software Department">04cfa80597eb711053f8b5a6f053afb4</to>
+        <sys_updated_on>2024-01-06 04:39:53</sys_updated_on>
+        <to display_value="Final Bill Generation">2d9cceb9976f351053f8b5a6f053af75</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Yes">4ccfa80597eb711053f8b5a6f053afb3</condition>
-        <from display_value="If Assignment group is Hardware then it will assign to hardware group members">c8cfa80597eb711053f8b5a6f053afb2</from>
+        <condition display_value="Always">219cceb9976f351053f8b5a6f053af6d</condition>
+        <from display_value="Begin">e59cceb9976f351053f8b5a6f053af6c</from>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-03 13:58:50</sys_created_on>
-        <sys_id>c8cfac0597eb711053f8b5a6f053af40</sys_id>
+        <sys_created_on>2024-01-06 04:39:53</sys_created_on>
+        <sys_id>e99cceb9976f351053f8b5a6f053af7e</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-03 13:58:50</sys_updated_on>
-        <to display_value="Assign Incident to Hardware Department">40cfa80597eb711053f8b5a6f053afb0</to>
+        <sys_updated_on>2024-01-06 04:39:53</sys_updated_on>
+        <to display_value="Send notification to customer that issue has been raised.">219cceb9976f351053f8b5a6f053af73</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">659cceb9976f351053f8b5a6f053af75</condition>
+        <from display_value="Wait for incident to get assigned to a technicial group.">2d9cceb9976f351053f8b5a6f053af74</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-06 04:39:53</sys_created_on>
+        <sys_id>e99cceb9976f351053f8b5a6f053af80</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-06 04:39:53</sys_updated_on>
+        <to display_value="Incident has been assigned to Technicial group head">e59cceb9976f351053f8b5a6f053af7b</to>
     </wf_transition>
     <wf_estimated_runtime_config action="INSERT_OR_UPDATE">
         <estimated_run_time/>
         <no_of_data_points>1</no_of_data_points>
         <percentage_threshold_ert>20</percentage_threshold_ert>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-03 13:58:50</sys_created_on>
-        <sys_id>04cfa80597eb711053f8b5a6f053afae</sys_id>
+        <sys_created_on>2024-01-06 04:39:53</sys_created_on>
+        <sys_id>2d9cceb9976f351053f8b5a6f053af6a</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-03 13:58:50</sys_updated_on>
-        <workflow_version display_value="MySmartphone service Workflow">40cfa80597eb711053f8b5a6f053afae</workflow_version>
+        <sys_updated_on>2024-01-06 04:39:53</sys_updated_on>
+        <workflow_version display_value="MySmartphone service Workflow">259c0e79976f351053f8b5a6f053af2d</workflow_version>
     </wf_estimated_runtime_config>
-    <wf_workflow_version action="update_multiple" query="workflow=b0b188c1972b711053f8b5a6f053affe^sys_id!=40cfa80597eb711053f8b5a6f053afae">
+    <wf_workflow_version action="update_multiple" query="workflow=b0b188c1972b711053f8b5a6f053affe^sys_id!=259c0e79976f351053f8b5a6f053af2d">
         <published>false</published>
     </wf_workflow_version>
 </record_update>

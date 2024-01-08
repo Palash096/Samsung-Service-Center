@@ -2,7 +2,29 @@
     <element audit="true" db_object_id="643e69db97df755053f8b5a6f053af93" extends="task" label="Tickets generated" max_length="40" name="x_1129749_mysmartp_tickets_generated" type="collection">
         <element label="Date of ticket closed" max_length="40" name="date_of_ticket_closed" type="glide_date"/>
         <element label="Date of ticket raised" max_length="40" name="date_of_ticket_raised" type="glide_date"/>
-        <element dependent="device_problem" dependent_on_field="device_problem" label="Device Issue" max_length="4000" name="device_issue" type="glide_list" use_dependent_field="true"/>
+        <element choice="1" dependent="device_problem" dependent_on_field="device_problem" label="Device Issue" max_length="4000" name="device_issue" type="choice" use_dependent_field="true">
+            <choice>
+                <element dependent_value="software" inactive_on_update="false" label="App-Related Issues" value="App-Related Issues"/>
+                <element dependent_value="software" inactive_on_update="false" label="Battery Drainage" value="Battery Drainage"/>
+                <element dependent_value="hardware" inactive_on_update="false" label="Battery Drainage" value="Battery Drainage"/>
+                <element dependent_value="hardware" inactive_on_update="false" label="Camera Malfunctions" value="Camera Malfunctions"/>
+                <element dependent_value="hardware" inactive_on_update="false" label="Charging Issues" value="Charging Issues"/>
+                <element dependent_value="software" inactive_on_update="false" label="Connectivity Problems" value="Connectivity Problems"/>
+                <element dependent_value="hardware" inactive_on_update="false" label="Connectivity Problems" value="Connectivity Problems"/>
+                <element dependent_value="hardware" inactive_on_update="false" label="Hardware Buttons Not Working" value="Hardware Buttons Not Working"/>
+                <element dependent_value="hardware" inactive_on_update="false" label="Internal Component Failure" value="Internal Component Failure"/>
+                <element dependent_value="software" inactive_on_update="false" label="Operating System Problems" value="Operating System Problems"/>
+                <element dependent_value="hardware" inactive_on_update="false" label="Overheating" value="Overheating"/>
+                <element dependent_value="software" inactive_on_update="false" label="Performance Issues" value="Performance Issues"/>
+                <element dependent_value="hardware" inactive_on_update="false" label="Screen Damage" value="Screen Damage"/>
+                <element dependent_value="software" inactive_on_update="false" label="Security Concerns" value="Security Concerns"/>
+                <element dependent_value="software" inactive_on_update="false" label="Settings or Configuration Errors" value="Settings or Configuration Errors"/>
+                <element dependent_value="hardware" inactive_on_update="false" label="Speaker or Microphone Problems" value="Speaker or Microphone Problems"/>
+                <element dependent_value="software" inactive_on_update="false" label="Storage Problems" value="Storage Problems"/>
+                <element dependent_value="software" inactive_on_update="false" label="Touchscreen or Interface Problems" value="Touchscreen or Interface Problems"/>
+                <element dependent_value="hardware" inactive_on_update="false" label="Water Damage" value="Water Damage"/>
+            </choice>
+        </element>
         <element choice="1" label="Device problem category" max_length="40" name="device_problem" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Hardware" value="hardware"/>
