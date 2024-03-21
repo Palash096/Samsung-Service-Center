@@ -19,10 +19,10 @@
         <dynamic_ref_qual/>
         <enable_also_request_for>false</enable_also_request_for>
         <example_text/>
-        <field>short_description</field>
+        <field>email</field>
         <global>false</global>
         <help_tag>More information</help_tag>
-        <help_text>Issue Faced.</help_text>
+        <help_text/>
         <hidden>false</hidden>
         <include_none>false</include_none>
         <instructions/>
@@ -35,17 +35,17 @@
         <lookup_value/>
         <macro/>
         <macroponent/>
-        <mandatory>true</mandatory>
+        <mandatory>false</mandatory>
         <map_to_field>true</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
-        <name>short_description</name>
-        <order>400</order>
+        <name>email</name>
+        <order>200</order>
         <post_insert_script/>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <published_ref/>
-        <question_text>Issue Faced</question_text>
+        <question_text>Your Email :</question_text>
         <read_only>false</read_only>
         <read_roles/>
         <read_script/>
@@ -53,7 +53,7 @@
         <rec_price_if_checked>0</rec_price_if_checked>
         <record/>
         <record_producer_table>x_1129749_mysmartp_tickets_generated</record_producer_table>
-        <reference/>
+        <reference>sys_user</reference>
         <reference_qual/>
         <reference_qual_condition/>
         <rich_text/>
@@ -67,22 +67,22 @@
 */]]></save_script>
         <scale_max>5</scale_max>
         <scale_min>0</scale_min>
-        <show_help>true</show_help>
+        <show_help>false</show_help>
         <show_help_on_load>false</show_help_on_load>
         <sp_widget/>
         <summary_macro/>
         <sys_class_name>item_option_new</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-01 03:49:09</sys_created_on>
-        <sys_id>898010d897a7795053f8b5a6f053af50</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_name>Issue Faced</sys_name>
+        <sys_created_on>2024-02-08 07:00:25</sys_created_on>
+        <sys_id>7de52cac979c8e1053f8b5a6f053afd0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Your Email :</sys_name>
         <sys_package display_value="MySmartphone Service Center" source="x_1129749_mysmartp">12ba0113975f755053f8b5a6f053af6a</sys_package>
         <sys_policy/>
         <sys_scope display_value="MySmartphone Service Center">12ba0113975f755053f8b5a6f053af6a</sys_scope>
-        <sys_update_name>item_option_new_898010d897a7795053f8b5a6f053af50</sys_update_name>
+        <sys_update_name>item_option_new_7de52cac979c8e1053f8b5a6f053afd0</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-02-08 07:01:42</sys_updated_on>
+        <sys_updated_on>2024-02-08 07:00:25</sys_updated_on>
         <table/>
         <tooltip/>
         <type>6</type>
@@ -93,7 +93,7 @@
         <validate_regex/>
         <variable_name/>
         <variable_set/>
-        <variable_width>100</variable_width>
+        <variable_width/>
         <visibility>1</visibility>
         <visible_bundle>true</visible_bundle>
         <visible_guide>true</visible_guide>
@@ -101,22 +101,22 @@
         <visible_summary>true</visible_summary>
         <write_roles/>
     </item_option_new>
-    <sys_translated_text action="delete_multiple" query="documentkey=898010d897a7795053f8b5a6f053af50"/>
-    <fx_price action="delete_multiple" query="id=898010d897a7795053f8b5a6f053af50"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=7de52cac979c8e1053f8b5a6f053afd0"/>
+    <fx_price action="delete_multiple" query="id=7de52cac979c8e1053f8b5a6f053afd0"/>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>price_if_checked</field>
-        <id>898010d897a7795053f8b5a6f053af50</id>
+        <id>7de52cac979c8e1053f8b5a6f053afd0</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-01 03:49:09</sys_created_on>
-        <sys_id>9901d05897a7795053f8b5a6f053af03</sys_id>
+        <sys_created_on>2024-02-08 07:00:25</sys_created_on>
+        <sys_id>c239a0a097dc8e1053f8b5a6f053af04</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-01 03:49:09</sys_updated_on>
+        <sys_updated_on>2024-02-08 07:00:25</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>
@@ -124,16 +124,16 @@
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>rec_price_if_checked</field>
-        <id>898010d897a7795053f8b5a6f053af50</id>
+        <id>7de52cac979c8e1053f8b5a6f053afd0</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-01 03:49:09</sys_created_on>
-        <sys_id>1101d05897a7795053f8b5a6f053af03</sys_id>
+        <sys_created_on>2024-02-08 07:00:25</sys_created_on>
+        <sys_id>0e39a0a097dc8e1053f8b5a6f053af02</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-01 03:49:09</sys_updated_on>
+        <sys_updated_on>2024-02-08 07:00:25</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>
