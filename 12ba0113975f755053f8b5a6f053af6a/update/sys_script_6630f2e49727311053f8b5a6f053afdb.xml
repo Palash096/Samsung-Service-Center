@@ -6,7 +6,7 @@
         <action_insert>true</action_insert>
         <action_query>false</action_query>
         <action_update>false</action_update>
-        <active>true</active>
+        <active>false</active>
         <add_message>false</add_message>
         <advanced>true</advanced>
         <change_fields>false</change_fields>
@@ -37,7 +37,7 @@
 	
 	while(gr.next()){
 		current.email = gr.email;
-		current.mobile_number = gr.mobile_phone;
+		current.mob_number = gr.mobile_phone;
 		current.mobile_model = gr.u_string_2;
 	}
 })(current, previous);]]></script>
@@ -47,7 +47,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>6630f2e49727311053f8b5a6f053afdb</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>AutoPopulateUserDetails</sys_name>
         <sys_overrides/>
         <sys_package display_value="MySmartphone Service Center" source="x_1129749_mysmartp">12ba0113975f755053f8b5a6f053af6a</sys_package>
@@ -55,7 +55,7 @@
         <sys_scope display_value="MySmartphone Service Center">12ba0113975f755053f8b5a6f053af6a</sys_scope>
         <sys_update_name>sys_script_6630f2e49727311053f8b5a6f053afdb</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-02 10:37:41</sys_updated_on>
+        <sys_updated_on>2024-05-18 08:29:13</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Raise a ticket">2ebbc09497a7795053f8b5a6f053afae</catalog_item>
+        <catalog_variable>IO:cac7a9e697f1425053f8b5a6f053aff0</catalog_variable>
+        <cleared>true</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <order>200</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-29 07:15:36</sys_created_on>
+        <sys_id>4e653da69735425053f8b5a6f053af8e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>device_issue</sys_name>
+        <sys_package display_value="MySmartphone Service Center" source="x_1129749_mysmartp">12ba0113975f755053f8b5a6f053af6a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MySmartphone Service Center">12ba0113975f755053f8b5a6f053af6a</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_4e653da69735425053f8b5a6f053af8e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-29 07:15:36</sys_updated_on>
+        <table/>
+        <ui_policy display_value="If Device Problem is other then description field will be mandatory.">43c4b1669735425053f8b5a6f053af49</ui_policy>
+        <variable>device_issue</variable>
+        <variable_set/>
+        <visible>false</visible>
+    </catalog_ui_policy_action>
+</record_update>

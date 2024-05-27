@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="2">e13532b29739825053f8b5a6f053affc</sp_column>
+        <sp_widget display_value="Organization Chart">33b0f6f5c3310200b7b87868e1d3ae7b</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-30 06:32:34</sys_created_on>
+        <sys_id>e13532b29739825053f8b5a6f053affe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="MySmartphone Service Center" source="x_1129749_mysmartp">12ba0113975f755053f8b5a6f053af6a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MySmartphone Service Center">12ba0113975f755053f8b5a6f053af6a</sys_scope>
+        <sys_update_name>sp_instance_e13532b29739825053f8b5a6f053affe</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-30 06:32:34</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=e13532b29739825053f8b5a6f053affe"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MySmartphone Service Center">12ba0113975f755053f8b5a6f053af6a</application>
+        <file_path/>
+        <instance_id>ad7ecc92dbe92518c9912f17d4961906</instance_id>
+        <instance_name>dev164351</instance_name>
+        <name>sp_instance_e13532b29739825053f8b5a6f053affe</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance"><sp_instance action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><glyph/><id/><order>1</order><roles/><short_description/><size>md</size><sp_column display_value="2">e13532b29739825053f8b5a6f053affc</sp_column><sp_widget display_value="Organization Chart">33b0f6f5c3310200b7b87868e1d3ae7b</sp_widget><sys_class_name>sp_instance</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-04-30 06:32:34</sys_created_on><sys_id>e13532b29739825053f8b5a6f053affe</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="MySmartphone Service Center" source="x_1129749_mysmartp">12ba0113975f755053f8b5a6f053af6a</sys_package><sys_policy/><sys_scope display_value="MySmartphone Service Center">12ba0113975f755053f8b5a6f053af6a</sys_scope><sys_update_name>sp_instance_e13532b29739825053f8b5a6f053affe</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-04-30 06:32:34</sys_updated_on><title/><url/><widget_parameters/></sp_instance><sys_translated_text action="delete_multiple" query="documentkey=e13532b29739825053f8b5a6f053affe"/></record_update>]]></payload>
+        <payload_hash>-776919724</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>53fa4597975b755053f8b5a6f053af31</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-30 06:32:34</sys_created_on>
+        <sys_id>653572b29739825053f8b5a6f053af00</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18f2db47df20000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-30 06:32:34</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>ad3532b24539825089c4947efdc051ff</update_guid>
+        <update_guid_history>ad3532b24539825089c4947efdc051ff:-776919724</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">7b5219939771065053f8b5a6f053af0c</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-01 12:37:42</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>56030cf057a44d5c800ba5188e401a21</sys_id>
+        <sys_metadata>e13532b29739825053f8b5a6f053affe</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="MySmartphone Service Center" source="x_1129749_mysmartp">12ba0113975f755053f8b5a6f053af6a</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="MySmartphone Service Center">12ba0113975f755053f8b5a6f053af6a</sys_scope>
+        <sys_scope_delete display_value="">b01e8e6237734995a641a86aa7163701</sys_scope_delete>
+        <sys_update_name>sp_instance_e13532b29739825053f8b5a6f053affe</sys_update_name>
+        <sys_update_version display_value="sp_instance_e13532b29739825053f8b5a6f053affe">653572b29739825053f8b5a6f053af00</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-01 12:37:42</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

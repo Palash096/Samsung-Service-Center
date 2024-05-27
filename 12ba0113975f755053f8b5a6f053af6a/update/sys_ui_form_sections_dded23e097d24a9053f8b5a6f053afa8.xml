@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="dded23e097d24a9053f8b5a6f053afa8" sys_domain="global" table="x_1129749_mysmartp_tickets_generated" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-18 07:25:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>15ed23e097d24a9053f8b5a6f053afac</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1129749_mysmartp_tickets_generated" name="x_1129749_mysmartp_tickets_generated" sys_domain="global" view="Default view">dded23e097d24a9053f8b5a6f053afa8</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_1129749_mysmartp_tickets_generated" sys_domain="global" view="Default view">977f2d1f97df755053f8b5a6f053afa7</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-18 07:25:18</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-18 07:29:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0beea72497d24a9053f8b5a6f053af9a</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1129749_mysmartp_tickets_generated" name="x_1129749_mysmartp_tickets_generated" sys_domain="global" view="Default view">dded23e097d24a9053f8b5a6f053afa8</sys_ui_form>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_1129749_mysmartp_tickets_generated" sys_domain="global" view="Default view">0feea72497d24a9053f8b5a6f053af97</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-18 07:29:47</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-18 07:25:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>91ed23e097d24a9053f8b5a6f053afad</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1129749_mysmartp_tickets_generated" name="x_1129749_mysmartp_tickets_generated" sys_domain="global" view="Default view">dded23e097d24a9053f8b5a6f053afa8</sys_ui_form>
+            <sys_ui_section caption="User Details" display_value="User Details" name="x_1129749_mysmartp_tickets_generated" sys_domain="global" view="Default view">d5ed23e097d24a9053f8b5a6f053afa6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-18 07:29:47</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-18 07:25:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1ded23e097d24a9053f8b5a6f053afbd</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1129749_mysmartp_tickets_generated" name="x_1129749_mysmartp_tickets_generated" sys_domain="global" view="Default view">dded23e097d24a9053f8b5a6f053afa8</sys_ui_form>
+            <sys_ui_section caption="Device Details" display_value="Device Details" name="x_1129749_mysmartp_tickets_generated" sys_domain="global" view="Default view">15ed23e097d24a9053f8b5a6f053afa8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-18 07:29:47</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_1129749_mysmartp_tickets_generated</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-18 07:25:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>dded23e097d24a9053f8b5a6f053afa8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1129749_mysmartp_tickets_generated</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="MySmartphone Service Center" source="x_1129749_mysmartp">12ba0113975f755053f8b5a6f053af6a</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="MySmartphone Service Center">12ba0113975f755053f8b5a6f053af6a</sys_scope>
+            <sys_update_name>sys_ui_form_sections_dded23e097d24a9053f8b5a6f053afa8</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-18 07:25:18</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

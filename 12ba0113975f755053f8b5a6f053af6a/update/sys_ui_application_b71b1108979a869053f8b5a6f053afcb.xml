@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_application">
+    <sys_ui_application action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <hint/>
+        <name>Mobitech service center</name>
+        <order/>
+        <roles>x_1129749_mysmartp.tickets_generated_user,x_1129749_mysmartp.customer,x_1129749_mysmartp.technician,x_1129749_mysmartp.hardwareTechnicial,x_1129749_mysmartp.softwareTechnicial</roles>
+        <sys_class_name>sys_ui_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-16 07:27:04</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b71b1108979a869053f8b5a6f053afcb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Mobitech service center</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="MySmartphone Service Center" source="x_1129749_mysmartp">12ba0113975f755053f8b5a6f053af6a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MySmartphone Service Center">12ba0113975f755053f8b5a6f053af6a</sys_scope>
+        <sys_update_name>sys_ui_application_b71b1108979a869053f8b5a6f053afcb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-16 07:27:04</sys_updated_on>
+    </sys_ui_application>
+</record_update>

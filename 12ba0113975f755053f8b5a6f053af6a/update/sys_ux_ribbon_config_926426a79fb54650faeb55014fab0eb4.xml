@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_ribbon_config">
+    <sys_ux_ribbon_config action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>MySmartphone Service Center Ribbon Config</description>
+        <name>MySmartphone Service Center Ribbon Config</name>
+        <sys_class_name>sys_ux_ribbon_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-02 13:14:38</sys_created_on>
+        <sys_id>926426a79fb54650faeb55014fab0eb4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>MySmartphone Service Center Ribbon Config</sys_name>
+        <sys_package display_value="MySmartphone Service Center" source="x_1129749_mysmartp">12ba0113975f755053f8b5a6f053af6a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MySmartphone Service Center">12ba0113975f755053f8b5a6f053af6a</sys_scope>
+        <sys_update_name>sys_ux_ribbon_config_926426a79fb54650faeb55014fab0eb4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-02 13:14:38</sys_updated_on>
+    </sys_ux_ribbon_config>
+</record_update>

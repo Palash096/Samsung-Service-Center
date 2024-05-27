@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_search_filter">
+    <sys_search_filter action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <ais_search_source display_value="Tickets generated">91742aa797b5465053f8b5a6f053afe2</ais_search_source>
+        <label>Tickets generated</label>
+        <name>Tickets generated</name>
+        <order>100</order>
+        <search_context_config display_value="MySmartphone Service Center AI Search Configuratio">926426a718b54650f822575ac02663b6</search_context_config>
+        <sys_class_name>sys_search_filter</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-02 13:14:50</sys_created_on>
+        <sys_id>1d742aa797b5465053f8b5a6f053affd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Tickets generated</sys_name>
+        <sys_package display_value="MySmartphone Service Center" source="x_1129749_mysmartp">12ba0113975f755053f8b5a6f053af6a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MySmartphone Service Center">12ba0113975f755053f8b5a6f053af6a</sys_scope>
+        <sys_update_name>sys_search_filter_1d742aa797b5465053f8b5a6f053affd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-02 13:14:50</sys_updated_on>
+    </sys_search_filter>
+</record_update>

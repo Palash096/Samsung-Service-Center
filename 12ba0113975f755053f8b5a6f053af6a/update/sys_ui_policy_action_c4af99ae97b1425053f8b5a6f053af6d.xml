@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>true</cleared>
+        <disabled>ignore</disabled>
+        <field>device_issue</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-29 05:41:24</sys_created_on>
+        <sys_id>c4af99ae97b1425053f8b5a6f053af6d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>device_issue</sys_name>
+        <sys_package display_value="MySmartphone Service Center" source="x_1129749_mysmartp">12ba0113975f755053f8b5a6f053af6a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MySmartphone Service Center">12ba0113975f755053f8b5a6f053af6a</sys_scope>
+        <sys_update_name>sys_ui_policy_action_c4af99ae97b1425053f8b5a6f053af6d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-29 05:41:37</sys_updated_on>
+        <table>x_1129749_mysmartp_tickets_generated</table>
+        <ui_policy display_value="If Device Problem is Other then Device Issue will get hidden and description will become mandatory.">952dd9e697b1425053f8b5a6f053af42</ui_policy>
+        <visible>false</visible>
+    </sys_ui_policy_action>
+</record_update>

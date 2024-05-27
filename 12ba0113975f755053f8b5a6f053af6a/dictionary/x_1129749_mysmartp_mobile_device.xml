@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="939a19c4979a869053f8b5a6f053afbf" label="Mobile Device" max_length="40" name="x_1129749_mysmartp_mobile_device" type="collection">
+        <element default="javascript:getNextObjNumberPadded();" dynamic_default_value="fdcb83a85f220100a9ad2572f2b4773c" label="Device Id" max_length="40" name="device_id" read_only="true" type="string" use_dynamic_default="true"/>
+        <element display="true" label="Device Name" max_length="40" name="device_name" type="string"/>
+        <element choice="1" label="Device Type" max_length="40" name="device_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="SmartPhone" value="smartphone"/>
+                <element inactive_on_update="false" label="Tablet" value="tablet"/>
+            </choice>
+        </element>
+        <element label="IMEI number" max_length="40" name="imei_number" type="string"/>
+        <element label="Manufacturer" max_length="40" name="manufacturer" type="string"/>
+        <element label="Model" max_length="40" name="model" type="string"/>
+        <element label="Notes" max_length="1000" name="notes" type="string"/>
+        <element choice="1" label="OS" max_length="40" name="os" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Android" value="android"/>
+                <element inactive_on_update="false" label="iOS" value="iOS"/>
+                <element inactive_on_update="false" label="macOS" value="macOS"/>
+            </choice>
+        </element>
+        <element label="OS version" max_length="40" name="os_version" type="string"/>
+        <element label="Release Date" max_length="40" name="release_date" type="glide_date"/>
+        <element choice="1" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Active" value="active"/>
+                <element inactive_on_update="false" label="Inactive" value="inactive"/>
+                <element inactive_on_update="false" label="Retired" value="retired"/>
+            </choice>
+        </element>
+        <element label="User" max_length="32" name="user" reference="sys_user" type="reference"/>
+        <element label="Warranty Expiration" max_length="40" name="warranty_expiration" type="glide_date"/>
+        <index name="index">
+            <element name="user"/>
+        </index>
+    </element>
+</database>

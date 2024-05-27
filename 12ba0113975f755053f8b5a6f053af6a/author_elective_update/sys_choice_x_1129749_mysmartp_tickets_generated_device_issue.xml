@@ -20,40 +20,20 @@
             <element>device_issue</element>
             <hint/>
             <inactive>false</inactive>
-            <label>App-Related Issues</label>
+            <label>App crashes or freezes</label>
             <language>en</language>
             <name>x_1129749_mysmartp_tickets_generated</name>
-            <sequence/>
+            <sequence>100</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2024-01-03 08:23:28</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>33e2abb897a7711053f8b5a6f053af26</sys_id>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-01-03 08:25:33</sys_updated_on>
-            <value>App-Related Issues</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value>software</dependent_value>
-            <element>device_issue</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Battery Drainage</label>
-            <language>en</language>
-            <name>x_1129749_mysmartp_tickets_generated</name>
-            <sequence/>
-            <synonyms/>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-01-03 08:22:56</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>63c2af7897a7711053f8b5a6f053afe7</sys_id>
-            <sys_mod_count>2</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-01-03 08:25:26</sys_updated_on>
-            <value>Battery Drainage</value>
+            <sys_updated_on>2024-04-29 06:32:41</sys_updated_on>
+            <value>App crashes or freezes</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value>hardware</dependent_value>
@@ -63,197 +43,197 @@
             <label>Battery Drainage</label>
             <language>en</language>
             <name>x_1129749_mysmartp_tickets_generated</name>
-            <sequence/>
+            <sequence>100</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2024-01-03 08:10:24</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>84df1bf497a7711053f8b5a6f053afc9</sys_id>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-01-03 08:11:35</sys_updated_on>
+            <sys_updated_on>2024-04-29 07:06:00</sys_updated_on>
             <value>Battery Drainage</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value>hardware</dependent_value>
+            <dependent_value>software</dependent_value>
             <element>device_issue</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Camera Malfunctions</label>
+            <label>Battery drain</label>
             <language>en</language>
             <name>x_1129749_mysmartp_tickets_generated</name>
-            <sequence/>
+            <sequence>200</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-01-03 08:17:29</sys_created_on>
+            <sys_created_on>2024-01-03 08:22:56</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>8771ef3897a7711053f8b5a6f053af74</sys_id>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_id>63c2af7897a7711053f8b5a6f053afe7</sys_id>
+            <sys_mod_count>4</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-01-03 08:19:26</sys_updated_on>
-            <value>Camera Malfunctions</value>
+            <sys_updated_on>2024-04-29 06:37:48</sys_updated_on>
+            <value>Battery drain</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value>hardware</dependent_value>
             <element>device_issue</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Charging Issues</label>
+            <label>Proximity sensor issues</label>
             <language>en</language>
             <name>x_1129749_mysmartp_tickets_generated</name>
-            <sequence/>
+            <sequence>200</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-03 08:16:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2961ef3897a7711053f8b5a6f053af73</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-29 07:06:35</sys_updated_on>
+            <value>Proximity sensor issues</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>hardware</dependent_value>
+            <element>device_issue</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Charging port problems</label>
+            <language>en</language>
+            <name>x_1129749_mysmartp_tickets_generated</name>
+            <sequence>300</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2024-01-03 08:16:30</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>59e06b3897a7711053f8b5a6f053afd1</sys_id>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_mod_count>5</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-01-03 08:19:19</sys_updated_on>
-            <value>Charging Issues</value>
+            <sys_updated_on>2024-04-29 07:07:27</sys_updated_on>
+            <value>Charging port problems</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value>software</dependent_value>
             <element>device_issue</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Connectivity Problems</label>
+            <label>Operating system glitches</label>
             <language>en</language>
             <name>x_1129749_mysmartp_tickets_generated</name>
-            <sequence/>
-            <synonyms/>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-01-03 08:23:46</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>aff2abb897a7711053f8b5a6f053af26</sys_id>
-            <sys_mod_count>2</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-01-03 08:25:38</sys_updated_on>
-            <value>Connectivity Problems</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value>hardware</dependent_value>
-            <element>device_issue</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Connectivity Problems</label>
-            <language>en</language>
-            <name>x_1129749_mysmartp_tickets_generated</name>
-            <sequence/>
-            <synonyms/>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-01-03 08:18:44</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>bdd12b7897a7711053f8b5a6f053aff3</sys_id>
-            <sys_mod_count>2</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-01-03 08:19:40</sys_updated_on>
-            <value>Connectivity Problems</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value>hardware</dependent_value>
-            <element>device_issue</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Hardware Buttons Not Working</label>
-            <language>en</language>
-            <name>x_1129749_mysmartp_tickets_generated</name>
-            <sequence/>
-            <synonyms/>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-01-03 08:18:09</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>5db1af3897a7711053f8b5a6f053af0a</sys_id>
-            <sys_mod_count>2</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-01-03 08:19:33</sys_updated_on>
-            <value>Hardware Buttons Not Working</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value>hardware</dependent_value>
-            <element>device_issue</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Internal Component Failure</label>
-            <language>en</language>
-            <name>x_1129749_mysmartp_tickets_generated</name>
-            <sequence/>
-            <synonyms/>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-01-03 08:19:07</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>d2e1ab7897a7711053f8b5a6f053afb9</sys_id>
-            <sys_mod_count>2</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-01-03 08:19:44</sys_updated_on>
-            <value>Internal Component Failure</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value>software</dependent_value>
-            <element>device_issue</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Operating System Problems</label>
-            <language>en</language>
-            <name>x_1129749_mysmartp_tickets_generated</name>
-            <sequence/>
+            <sequence>300</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2024-01-03 08:23:12</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>77d2af7897a7711053f8b5a6f053af2f</sys_id>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-01-03 08:25:30</sys_updated_on>
-            <value>Operating System Problems</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value>hardware</dependent_value>
-            <element>device_issue</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Overheating</label>
-            <language>en</language>
-            <name>x_1129749_mysmartp_tickets_generated</name>
-            <sequence/>
-            <synonyms/>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-01-03 08:17:51</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>b391e77897a7711053f8b5a6f053af70</sys_id>
-            <sys_mod_count>2</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-01-03 08:19:30</sys_updated_on>
-            <value>Overheating</value>
+            <sys_updated_on>2024-04-29 06:33:10</sys_updated_on>
+            <value>Operating system glitches</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value>software</dependent_value>
             <element>device_issue</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Performance Issues</label>
+            <label>Connectivity Problems</label>
             <language>en</language>
             <name>x_1129749_mysmartp_tickets_generated</name>
-            <sequence/>
+            <sequence>400</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-03 08:23:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>aff2abb897a7711053f8b5a6f053af26</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-29 06:34:18</sys_updated_on>
+            <value>Connectivity Problems</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>hardware</dependent_value>
+            <element>device_issue</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Fingerprint sensor or Face ID issues</label>
+            <language>en</language>
+            <name>x_1129749_mysmartp_tickets_generated</name>
+            <sequence>400</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-03 08:19:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d2e1ab7897a7711053f8b5a6f053afb9</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-29 07:08:11</sys_updated_on>
+            <value>Fingerprint sensor or Face ID issues</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>software</dependent_value>
+            <element>device_issue</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Slow performance</label>
+            <language>en</language>
+            <name>x_1129749_mysmartp_tickets_generated</name>
+            <sequence>500</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2024-01-03 08:22:38</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>f6222b7897a7711053f8b5a6f053aff9</sys_id>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-01-03 08:25:23</sys_updated_on>
-            <value>Performance Issues</value>
+            <sys_updated_on>2024-04-29 06:34:45</sys_updated_on>
+            <value>Slow performance</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>hardware</dependent_value>
+            <element>device_issue</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Vibration motor failure</label>
+            <language>en</language>
+            <name>x_1129749_mysmartp_tickets_generated</name>
+            <sequence>500</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-03 08:17:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b391e77897a7711053f8b5a6f053af70</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-29 07:08:36</sys_updated_on>
+            <value>Vibration motor failure</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>software</dependent_value>
+            <element>device_issue</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Network connectivity issues</label>
+            <language>en</language>
+            <name>x_1129749_mysmartp_tickets_generated</name>
+            <sequence>600</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-03 08:24:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7313afb897a7711053f8b5a6f053afe8</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-29 06:49:00</sys_updated_on>
+            <value>Network connectivity issues</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value>hardware</dependent_value>
@@ -263,16 +243,16 @@
             <label>Screen Damage</label>
             <language>en</language>
             <name>x_1129749_mysmartp_tickets_generated</name>
-            <sequence/>
+            <sequence>600</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2024-01-03 08:10:44</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>c0002bf497a7711053f8b5a6f053af42</sys_id>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-01-03 08:11:31</sys_updated_on>
+            <sys_updated_on>2024-04-29 07:08:41</sys_updated_on>
             <value>Screen Damage</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -280,100 +260,140 @@
             <element>device_issue</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Security Concerns</label>
+            <label>Bluetooth problems</label>
             <language>en</language>
             <name>x_1129749_mysmartp_tickets_generated</name>
-            <sequence/>
-            <synonyms/>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-01-03 08:24:15</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>7313afb897a7711053f8b5a6f053afe8</sys_id>
-            <sys_mod_count>2</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-01-03 08:25:44</sys_updated_on>
-            <value>Security Concerns</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value>software</dependent_value>
-            <element>device_issue</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Settings or Configuration Errors</label>
-            <language>en</language>
-            <name>x_1129749_mysmartp_tickets_generated</name>
-            <sequence/>
+            <sequence>700</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2024-01-03 08:24:55</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>7633abb897a7711053f8b5a6f053afe2</sys_id>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-01-03 08:25:50</sys_updated_on>
-            <value>Settings or Configuration Errors</value>
+            <sys_updated_on>2024-04-29 06:49:44</sys_updated_on>
+            <value>Bluetooth problems</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value>hardware</dependent_value>
             <element>device_issue</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Speaker or Microphone Problems</label>
+            <label>Headphone jack issues</label>
             <language>en</language>
             <name>x_1129749_mysmartp_tickets_generated</name>
-            <sequence/>
+            <sequence>700</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-01-03 08:16:53</sys_created_on>
+            <sys_created_on>2024-01-03 08:18:09</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>2961ef3897a7711053f8b5a6f053af73</sys_id>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_id>5db1af3897a7711053f8b5a6f053af0a</sys_id>
+            <sys_mod_count>5</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-01-03 08:19:23</sys_updated_on>
-            <value>Speaker or Microphone Problems</value>
+            <sys_updated_on>2024-04-29 07:09:16</sys_updated_on>
+            <value>Headphone jack issues</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>hardware</dependent_value>
+            <element>device_issue</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Logic board or motherboard issues</label>
+            <language>en</language>
+            <name>x_1129749_mysmartp_tickets_generated</name>
+            <sequence>800</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-03 08:18:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bdd12b7897a7711053f8b5a6f053aff3</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-29 07:09:59</sys_updated_on>
+            <value>Logic board or motherboard issues</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value>software</dependent_value>
             <element>device_issue</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Storage Problems</label>
+            <label>Overheating</label>
             <language>en</language>
             <name>x_1129749_mysmartp_tickets_generated</name>
-            <sequence/>
+            <sequence>800</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2024-01-03 08:24:01</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>c4136fb897a7711053f8b5a6f053affb</sys_id>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-01-03 08:25:41</sys_updated_on>
-            <value>Storage Problems</value>
+            <sys_updated_on>2024-04-29 06:50:40</sys_updated_on>
+            <value>Overheating</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>hardware</dependent_value>
+            <element>device_issue</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Camera Malfunctions</label>
+            <language>en</language>
+            <name>x_1129749_mysmartp_tickets_generated</name>
+            <sequence>900</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-03 08:17:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8771ef3897a7711053f8b5a6f053af74</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-29 07:10:25</sys_updated_on>
+            <value>Camera Malfunctions</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value>software</dependent_value>
             <element>device_issue</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Touchscreen or Interface Problems</label>
+            <label>GPS inaccuracies</label>
             <language>en</language>
             <name>x_1129749_mysmartp_tickets_generated</name>
-            <sequence/>
+            <sequence>900</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2024-01-03 08:24:31</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>43232bb897a7711053f8b5a6f053afc4</sys_id>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-01-03 08:25:47</sys_updated_on>
-            <value>Touchscreen or Interface Problems</value>
+            <sys_updated_on>2024-04-29 06:57:36</sys_updated_on>
+            <value>GPS inaccuracies</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>software</dependent_value>
+            <element>device_issue</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Security vulnerabilities</label>
+            <language>en</language>
+            <name>x_1129749_mysmartp_tickets_generated</name>
+            <sequence>1000</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-29 06:59:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3181fd2a97f1425053f8b5a6f053affd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-29 06:59:55</sys_updated_on>
+            <value>Security vulnerabilities</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value>hardware</dependent_value>
@@ -383,16 +403,16 @@
             <label>Water Damage</label>
             <language>en</language>
             <name>x_1129749_mysmartp_tickets_generated</name>
-            <sequence/>
+            <sequence>1000</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2024-01-03 08:18:26</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>35c12b7897a7711053f8b5a6f053afc9</sys_id>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-01-03 08:19:37</sys_updated_on>
+            <sys_updated_on>2024-04-29 07:10:29</sys_updated_on>
             <value>Water Damage</value>
         </sys_choice>
     </sys_choice>

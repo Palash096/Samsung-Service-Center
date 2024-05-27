@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_carousel">
+    <sp_instance_carousel action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id>Mobitech Carousels</id>
+        <interval>5000</interval>
+        <order>2</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">69c6f6f29739825053f8b5a6f053aff0</sp_column>
+        <sp_widget display_value="Carousel">cf1a5153cb21020000f8d856634c9c3c</sp_widget>
+        <sys_class_name>sp_instance_carousel</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-30 06:48:26</sys_created_on>
+        <sys_id>fdd83af29739825053f8b5a6f053af38</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="MySmartphone Service Center" source="x_1129749_mysmartp">12ba0113975f755053f8b5a6f053af6a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MySmartphone Service Center">12ba0113975f755053f8b5a6f053af6a</sys_scope>
+        <sys_update_name>sp_instance_carousel_fdd83af29739825053f8b5a6f053af38</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-30 07:39:10</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance_carousel>
+    <sys_translated_text action="DELETE" query="documentkey=fdd83af29739825053f8b5a6f053af38"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MySmartphone Service Center">12ba0113975f755053f8b5a6f053af6a</application>
+        <file_path/>
+        <instance_id>ad7ecc92dbe92518c9912f17d4961906</instance_id>
+        <instance_name>dev164351</instance_name>
+        <name>sp_instance_carousel_fdd83af29739825053f8b5a6f053af38</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_carousel"><sp_instance_carousel action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><glyph/><id>Mobitech Carousels</id><interval>5000</interval><order>2</order><roles/><short_description/><size>md</size><sp_column display_value="1">69c6f6f29739825053f8b5a6f053aff0</sp_column><sp_widget display_value="Carousel">cf1a5153cb21020000f8d856634c9c3c</sp_widget><sys_class_name>sp_instance_carousel</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-04-30 06:48:26</sys_created_on><sys_id>fdd83af29739825053f8b5a6f053af38</sys_id><sys_mod_count>2</sys_mod_count><sys_name/><sys_package display_value="MySmartphone Service Center" source="x_1129749_mysmartp">12ba0113975f755053f8b5a6f053af6a</sys_package><sys_policy/><sys_scope display_value="MySmartphone Service Center">12ba0113975f755053f8b5a6f053af6a</sys_scope><sys_update_name>sp_instance_carousel_fdd83af29739825053f8b5a6f053af38</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-04-30 07:39:10</sys_updated_on><title/><url/><widget_parameters/></sp_instance_carousel><sys_translated_text action="delete_multiple" query="documentkey=fdd83af29739825053f8b5a6f053af38"/></record_update>]]></payload>
+        <payload_hash>1152795319</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>53fa4597975b755053f8b5a6f053af31</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-30 07:39:10</sys_created_on>
+        <sys_id>417483729779825053f8b5a6f053af65</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18f2df1766a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-30 07:39:10</sys_updated_on>
+        <type>Instance of Carousel</type>
+        <update_guid>49748372217982505ee3264ea9393264</update_guid>
+        <update_guid_history>49748372217982505ee3264ea9393264:1152795319,d099be767839825032070c13e0c6b288:1712370200,8ed83af2e639825036bc6f990d43423a:-1791565625</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">39674b369779825053f8b5a6f053af09</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-30 07:52:03</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_carousel">sp_instance_carousel</sys_db_object>
+        <sys_id>37bc5b5f6dcb4c0f9fc7a69429e13389</sys_id>
+        <sys_metadata>fdd83af29739825053f8b5a6f053af38</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="MySmartphone Service Center" source="x_1129749_mysmartp">12ba0113975f755053f8b5a6f053af6a</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="MySmartphone Service Center">12ba0113975f755053f8b5a6f053af6a</sys_scope>
+        <sys_scope_delete display_value="">b01e8e6237734995a641a86aa7163701</sys_scope_delete>
+        <sys_update_name>sp_instance_carousel_fdd83af29739825053f8b5a6f053af38</sys_update_name>
+        <sys_update_version display_value="sp_instance_carousel_fdd83af29739825053f8b5a6f053af38">417483729779825053f8b5a6f053af65</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-30 07:52:03</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
